@@ -1,10 +1,15 @@
-# Два твика для iSpace Toolbox: виджеты главного экрана F515
+# Три твика для iSpace Toolbox: виджеты главного экрана F515
 
 1. **`widget_unlock_delete`** — разблокировать удаление «несъёмных» виджетов главного экрана.
 2. **`recent5`** — расширить виджет недавних приложений с 3 плиток до 5.
+3. **`trip_modes`** — превратить виджет «Поездка» в панель переключения режимов автомобиля
+   (Электро / Топливо) и режимов вождения (ЭКО / Спорт).
 
-Оба проверены вживую на F515 15.08.2026. Твики независимы, но на практике нужны вместе:
+Все три проверены вживую на F515 15.08.2026. Твики независимы, но на практике связаны:
 пять плиток недавних влезают только после того, как с дока убраны лишние виджеты.
+
+Первые два живут в процессе `com.seres.launcher`, третий — в `com.seres.settings`
+(там уже резидентен `tweaks.js`, поэтому третий твик встраивается в него, без второго инжекта).
 
 ## Окружение, на котором проверено
 
@@ -15,10 +20,11 @@
 | APK | `/system/app/SeresLauncher/SeresLauncher.apk` (15 811 487 байт) |
 | Frida | 17.15.3 (`frida-inject`, уже staged в `/data/local/tmp/frida-inject`) |
 
-Целевой процесс обоих твиков — `com.seres.launcher`. Раньше проект в него не инжектил,
-конфликтов с `tweaks.js` / `local-media-bridge.js` / `swb-hook.js` нет. Оба твика логично
-свести в **один агент на процесс** (модель проекта: inject-once-per-pid, свой inject-pid файл),
-разведя их гейтами по status-файлам.
+Твики 1 и 2 нацелены на `com.seres.launcher` — раньше проект в него не инжектил, конфликтов с
+`tweaks.js` / `local-media-bridge.js` / `swb-hook.js` нет; их логично свести в **один агент на
+процесс** (модель проекта: inject-once-per-pid, свой inject-pid файл), разведя гейтами по
+status-файлам. Твик 3 нацелен на `com.seres.settings`, где `tweaks.js` уже резидентен, поэтому
+он встраивается в него — второй инжект в тот же процесс недопустим.
 
 ## Общее: сборка агента под Frida 17
 
@@ -310,3 +316,225 @@ kill $(pidof com.seres.launcher)     # выгружает агента, сост
 
 Для твика 1 откат означает лишь исчезновение крестиков: уже удалённые виджеты
 возвращаются через каталог «Все услуги» на главном экране.
+
+
+---
+
+# Твик 3: `trip_modes`
+
+Виджет «Поездка» (сетка 2×2 с пробегом, средним расходом и средней скоростью) превращается
+в панель из четырёх кнопок:
+
+```
+Электро | Топливо     ← режим автомобиля
+ЭКО     | Спорт       ← режим вождения
+```
+
+Активный режим подсвечивается белым, неактивный — серым. Значения читаются из машины,
+а не запоминаются в твике, поэтому подсветка не врёт даже когда режим сменился сам
+(например, автомобиль уходит с «только электро» при включении Спорта).
+
+## Как машина переключает режимы
+
+Оба действия делаются одним API — `com.seres.adapter.SeresPlatformAdapter` (клиентская
+библиотека вкомпилирована в приложения-клиенты, ходит по binder в `com.seres.publicadapter`;
+отдельного framework-jar нет):
+
+```java
+SeresPlatformAdapter.getInstance().setValue(key, value);   // value — строка
+SeresPlatformAdapter.getInstance().getValueSync(key);
+```
+
+| Действие | Ключ | Значение | Как проверено |
+|---|---|---|---|
+| Только электро | `ID_VCH_POWER_MODE` | `1` | запись + скриншот UI |
+| Приоритет электродвигателя | `ID_VCH_POWER_MODE` | `2` | наблюдалось |
+| Умный | `ID_VCH_POWER_MODE` | `3` | не проверялось |
+| Приоритет топлива | `ID_VCH_POWER_MODE` | `4` | запись + скриншот UI |
+| Режим ЭКО | `ID_SETTING_DRIVE_MODE` | `3` | запись + скриншот UI |
+| Комфорт | `ID_SETTING_DRIVE_MODE` | `2` | не проверялось |
+| Спорт | `ID_SETTING_DRIVE_MODE` | `1` | запись + скриншот UI |
+
+Значения идут в порядке кнопок в UI слева направо. **Осторожно с массивами из
+`FeatureConfig`**: `rangModeCanArray = {2,4,3,1}` — это порядок циклического перебора
+плитки в шторке, а не соответствие значений режимам; если читать его как маппинг,
+получится неверная таблица (мы на этом ошиблись).
+
+Оригинал (`DriveViewModel.runSetDriveMode`) после записи режима вождения ждёт 600 мс
+и сверяет результат через `getValueSync("ID_SETTING_CHECK_DRIVE_MODE")` — при успехе
+возвращается заданное значение.
+
+Read-only соседи, которые легко принять за нужный ключ: `ID_VCH_ENGRE_MODE` (заданный режим,
+запись игнорируется) и `ID_VCH_ACTUAL_MODE`.
+
+## Куда встраиваться
+
+Виджет реализован в `com.seres.settings.widgetprovider.TripDataSmartWidgetService`
+(`extends WidgetService`). В `createView()` инфлейтится разметка, из неё достаются четыре
+ячейки, в каждой — три `AppCompatTextView`:
+
+| Что | id ячейки |
+|---|---|
+| Пробег | `2131362092` |
+| Средний расход электро | `2131362125` |
+| Средний расход топлива | `2131362680` |
+| Средняя скорость | `2131362928` |
+
+Внутри ячейки: значение `2131363364`, название `2131363365`, единица `2131363366`
+(последних двух в некоторых ячейках может не быть — обязательно проверять на null).
+
+## Агент
+
+Код встраивается в существующий `tweaks.js` (перед закрывающим `})();`, внутрь IIFE,
+где доступен java-мост `V`):
+
+```js
+;try{(function(){
+function tlog(m){try{var f=new File('/data/local/tmp/trip-modes.log','a');f.write(Date.now()+' [trip-modes] '+m+'\n');f.close()}catch(e){}}
+
+// id из разметки виджета "Поездка" (TripDataSmartWidgetService.createView)
+var CELL_DISTANCE=2131362092, CELL_ELE=2131362125, CELL_OIL=2131362680, CELL_SPEED=2131362928;
+var TV_VALUE=2131363364, TV_NAME=2131363365, TV_UNIT=2131363366;
+
+var KEY_POWER='ID_VCH_POWER_MODE';      // 1=только электро, 4=приоритет топлива
+var KEY_DRIVE='ID_SETTING_DRIVE_MODE';  // 3=ЭКО, 1=Спорт
+
+// ячейка -> [подпись, ключ, значение, название группы]
+var CELLS=[
+  [CELL_DISTANCE,'Электро', KEY_POWER,'1','Режим авто'],
+  [CELL_ELE,     'Топливо', KEY_POWER,'4','Режим авто'],
+  [CELL_OIL,     'ЭКО',     KEY_DRIVE,'3','Вождение'],
+  [CELL_SPEED,   'Спорт',   KEY_DRIVE,'1','Вождение']
+];
+
+var ACTIVE=0xffffffff|0, IDLE=0xff8a8a8a|0;
+var adapter=null;
+function ad(){ if(adapter===null){adapter=V.use('com.seres.adapter.SeresPlatformAdapter').getInstance()} return adapter }
+function readKey(k){ try{ return ('' + ad().getValueSync(k)).trim() }catch(e){ tlog('read '+k+' failed: '+e); return null } }
+
+var TextView=null, ViewCls=null, Clicker=null;
+
+function paint(root){
+  try{
+    var pw=readKey(KEY_POWER), dr=readKey(KEY_DRIVE);
+    for(var i=0;i<CELLS.length;i++){
+      var c=CELLS[i], cell=root.findViewById(c[0]);
+      if(cell===null){ tlog('cell '+c[1]+' not found'); continue }
+      tlog('paint cell '+c[1]);
+      var cellV=V.cast(cell, ViewCls);
+      function tv(id){ var r=cellV.findViewById(id); return (r===null)?null:V.cast(r, TextView) }
+      function put(t, s){ if(t!==null){ t.setText.overload('java.lang.CharSequence').call(t, s) } }
+      var val=tv(TV_VALUE), nam=tv(TV_NAME), uni=tv(TV_UNIT);
+      put(val, c[1]); put(nam, c[4]); put(uni, '');
+      if(val===null){ tlog('  cell '+c[1]+': value tv missing'); continue }
+      var cur = (c[2]===KEY_POWER) ? pw : dr;
+      val.setTextColor(cur===c[3] ? ACTIVE : IDLE);
+    }
+  }catch(e){ tlog('paint failed: '+e) }
+}
+
+function decorate(root){
+  if(TextView===null){ TextView=V.use('android.widget.TextView'); ViewCls=V.use('android.view.View') }
+  var OCL=V.use('android.view.View$OnClickListener');
+  for(var i=0;i<CELLS.length;i++){
+    (function(c, idx){
+      try{
+        var cell=root.findViewById(c[0]);
+        if(cell===null){ tlog('cell '+c[1]+' not found'); return }
+        var cellV=V.cast(cell, ViewCls);
+        var Klass=V.registerClass({
+          name:'su.dsr.f515.TripClick'+idx,
+          implements:[OCL],
+          methods:{ onClick:function(v){
+            try{
+              tlog('click -> '+c[2]+'='+c[3]);
+              ad().setValue(c[2], c[3]);
+              // машина применяет режим не мгновенно (оригинал ждёт 600 мс перед сверкой)
+              setTimeout(function(){
+                V.scheduleOnMainThread(function(){ try{ paint(root) }catch(e){ tlog('repaint failed: '+e) } });
+              }, 1200);
+            }catch(e){ tlog('click failed: '+e) }
+          }}
+        });
+        cellV.setClickable(true);
+        cellV.setOnClickListener(Klass.$new());
+        tlog('cell '+c[1]+' wired');
+      }catch(e){ tlog('wire '+c[1]+' failed: '+e) }
+    })(CELLS[i], i);
+  }
+  paint(root);
+  tlog('widget decorated');
+}
+
+try{
+  var Svc=V.use('com.seres.settings.widgetprovider.TripDataSmartWidgetService');
+  try{ Svc.updateUI.implementation=function(){ /* off: иначе перезапишет наши подписи */ }; tlog('updateUI disabled') }
+  catch(e){ tlog('updateUI hook failed: '+e) }
+  Svc.createView.implementation=function(){
+    var root=this.createView();
+    try{ if(root!==null) decorate(root) }catch(e){ tlog('decorate failed: '+e) }
+    return root;
+  };
+  tlog('TripDataSmartWidgetService hooks installed OK');
+  // агент инжектится позже, чем лаунчер успевает запросить createView -> берём живой экземпляр
+  V.scheduleOnMainThread(function(){
+    try{
+      V.choose('com.seres.settings.widgetprovider.TripDataSmartWidgetService',{
+        onMatch:function(inst){
+          try{
+            var cls=inst.getClass(), fs=cls.getDeclaredFields(), root=null, names='';
+            for(var k=0;k<fs.length;k++){
+              var f=fs[k]; names+=f.getName()+':'+f.getType().getName()+' ';
+              if(f.getType().getName()==='android.view.View'){
+                f.setAccessible(true);
+                var cand=f.get(inst);
+                if(cand!==null){ root=cand }
+              }
+            }
+            tlog('fields: '+names);
+            if(root!==null){ decorate(V.cast(root, V.use('android.view.View'))); tlog('existing instance decorated via heap walk') }
+            else tlog('no non-null View field found');
+          }catch(e){ tlog('heap decorate failed: '+e) }
+        },
+        onComplete:function(){}
+      });
+    }catch(e){ tlog('choose failed: '+e) }
+  });
+}catch(e){ tlog('service hook FAILED: '+e) }
+})()}catch(e){}
+```
+
+## Грабли
+
+- **Хук `createView` опаздывает.** Лаунчер биндится к сервису и получает View раньше, чем
+  watcher успевает инжектировать агента, поэтому одного хука мало — нужен heap walk по живому
+  экземпляру (`V.choose` + рефлексия по полю типа `android.view.View`; имя поля `contentView`
+  совпадает с декомпилированным, но надёжнее искать по типу).
+- **`updateUI()` обязательно глушить**, иначе он перезапишет подписи данными поездки.
+- **`V.registerClass` с `fields` не заработал** — пришлось делать отдельный listener-класс
+  на ячейку с замыканием (`su.dsr.f515.TripClick0..3`).
+- **Перерисовка сразу после клика показывает старое состояние** — машина применяет режим
+  с задержкой; ставим repaint через ~1200 мс.
+- **`findViewById` на «сыром» объекте из рефлексии** даёт `TypeError: not a function` —
+  результат надо привести `V.cast(obj, View)`.
+
+## Ограничения
+
+- Плитка перестаёт показывать данные поездки — она целиком становится панелью режимов.
+  Если это нежелательно, разумнее сделать отдельный виджет вместо подмены существующего.
+- Твик живёт в `tweaks.js`; при обновлении тулбокса файл перезапишется. Именно поэтому
+  его стоит внести в проект штатно — своим `status-trip_modes` и веткой в watcher
+  (переинжект после пересоздания `com.seres.settings` уже работает через существующую
+  логику tweaks-агента).
+- Имена и id привязаны к сборке Настроек `SAIOS_S1_SeresSettings` этой прошивки;
+  после OTA нужна перепроверка.
+
+## Проверка
+
+```sh
+tail -f /data/local/tmp/trip-modes.log
+#   [trip-modes] TripDataSmartWidgetService hooks installed OK
+#   [trip-modes] cell Электро wired ... cell Спорт wired
+#   [trip-modes] widget decorated
+#   [trip-modes] click -> ID_SETTING_DRIVE_MODE=1
+```
