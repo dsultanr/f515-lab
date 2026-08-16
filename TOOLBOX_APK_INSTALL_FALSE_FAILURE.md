@@ -16,6 +16,7 @@ Toolbox, каждый раз получал сообщение о неудаче
 | Хост-процесс установщика | `com.seres.engineeringmode` (`versionCode=1`), pid 3468 — Toolbox работает в нём через JVMTI-инъекцию, оттуда же идут строки `ApkInstallBiz` |
 | Штатный установщик | `com.android.packageinstaller` 4.5.0.0, targetSdk 30 |
 | Устанавливаемый пакет | `su.dsr.f515usbwwan` 3.2 (`versionCode=23`), 845 555 Б, подписан v2, minSdk 26 / targetSdk 29 |
+| TBOX | на момент этого разбора был **включён**; с 16.08.2026 на стенде выключен (`seres.platform.config.tbox` = `0`) |
 | Источник APK | съёмный exFAT-том `/storage/19FF-0859-0008-0017` (он же `/mnt/media_rw/...`) |
 
 ## Что наблюдает пользователь

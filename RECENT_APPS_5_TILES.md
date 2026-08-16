@@ -11,6 +11,7 @@
 | Лаунчер | `com.seres.launcher`, `versionCode=658`, `versionName=SAIOS_SeresLauncher_7901201-PH01_251104_03719402_658`, targetSdk 30 |
 | APK | `/system/app/SeresLauncher/SeresLauncher.apk` (15 811 487 байт) |
 | Frida | 17.15.3 (`frida-inject`, уже staged в `/data/local/tmp/frida-inject`) |
+| TBOX | **выключен** с 16.08.2026: системный параметр стенда `seres.platform.config.tbox` = `0` |
 
 ## Что ограничивает количество плиток
 
