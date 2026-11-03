@@ -1,0 +1,2481 @@
+{
+  "query_start_utc": "2026-11-03T07:44:00Z",
+  "query_end_utc": "2026-11-03T08:09:24.291040+00:00",
+  "records": [
+    {
+      "entity": "button.remote_on",
+      "state": "2026-11-02T18:02:37.245407+00:00",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "2026-11-03T07:45:08.479196+00:00",
+      "last_changed": "2026-11-03T07:45:08.479328+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T07:45:14.007768+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "2026-11-03T07:45:08.479196+00:00",
+      "last_changed": "2026-11-03T07:49:48.477943+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "2026-11-03T07:51:09.617204+00:00",
+      "last_changed": "2026-11-03T07:51:09.617296+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T07:51:20.392382+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "2026-11-03T07:51:09.617204+00:00",
+      "last_changed": "2026-11-03T07:54:43.479679+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "2026-11-03T07:55:16.337055+00:00",
+      "last_changed": "2026-11-03T07:55:16.337292+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T07:55:26.544169+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "2026-11-03T07:55:16.337055+00:00",
+      "last_changed": "2026-11-03T07:56:06.352181+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "2026-11-03T07:56:51.607110+00:00",
+      "last_changed": "2026-11-03T07:56:51.607229+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T07:56:58.671722+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "2026-11-03T07:56:51.607110+00:00",
+      "last_changed": "2026-11-03T07:57:48.686296+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "2026-11-03T07:58:33.462395+00:00",
+      "last_changed": "2026-11-03T07:58:33.462486+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T07:58:41.716546+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "2026-11-03T07:58:33.462395+00:00",
+      "last_changed": "2026-11-03T07:59:29.996940+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "2026-11-03T08:00:14.848961+00:00",
+      "last_changed": "2026-11-03T08:00:14.849111+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T08:00:33.714424+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "2026-11-03T08:00:14.848961+00:00",
+      "last_changed": "2026-11-03T08:01:12.516176+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "2026-11-03T08:02:13.792480+00:00",
+      "last_changed": "2026-11-03T08:02:13.792583+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T08:02:20.365680+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "2026-11-03T08:02:13.792480+00:00",
+      "last_changed": "2026-11-03T08:03:10.383700+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "2026-11-03T08:08:34.451022+00:00",
+      "last_changed": "2026-11-03T08:08:34.451127+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T08:08:42.292462+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_on",
+      "state": "2026-11-03T08:08:34.451022+00:00",
+      "last_changed": "2026-11-03T08:09:16.491144+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote On"
+    },
+    {
+      "entity": "button.remote_off",
+      "state": "2026-11-02T18:03:00.886855+00:00",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Remote Off"
+    },
+    {
+      "entity": "button.remote_off",
+      "state": "2026-11-03T07:49:47.738752+00:00",
+      "last_changed": "2026-11-03T07:49:47.745099+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote Off"
+    },
+    {
+      "entity": "button.remote_off",
+      "state": "2026-11-03T07:54:42.170367+00:00",
+      "last_changed": "2026-11-03T07:54:42.170471+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote Off"
+    },
+    {
+      "entity": "button.remote_off",
+      "state": "2026-11-03T07:56:05.079555+00:00",
+      "last_changed": "2026-11-03T07:56:05.079763+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote Off"
+    },
+    {
+      "entity": "button.remote_off",
+      "state": "2026-11-03T07:57:46.566745+00:00",
+      "last_changed": "2026-11-03T07:57:46.566965+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote Off"
+    },
+    {
+      "entity": "button.remote_off",
+      "state": "2026-11-03T07:59:27.633069+00:00",
+      "last_changed": "2026-11-03T07:59:27.633246+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote Off"
+    },
+    {
+      "entity": "button.remote_off",
+      "state": "2026-11-03T08:09:12.184406+00:00",
+      "last_changed": "2026-11-03T08:09:12.184561+00:00",
+      "last_updated": null,
+      "friendly_name": "Remote Off"
+    },
+    {
+      "entity": "button.lock",
+      "state": "2026-11-02T16:11:04.808461+00:00",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Lock"
+    },
+    {
+      "entity": "button.lock",
+      "state": "2026-11-03T07:45:00.214065+00:00",
+      "last_changed": "2026-11-03T07:45:00.214248+00:00",
+      "last_updated": null,
+      "friendly_name": "Lock"
+    },
+    {
+      "entity": "button.lock",
+      "state": "2026-11-03T08:01:41.326889+00:00",
+      "last_changed": "2026-11-03T08:01:41.327042+00:00",
+      "last_updated": null,
+      "friendly_name": "Lock"
+    },
+    {
+      "entity": "button.lock",
+      "state": "2026-11-03T08:03:40.022426+00:00",
+      "last_changed": "2026-11-03T08:03:40.022524+00:00",
+      "last_updated": null,
+      "friendly_name": "Lock"
+    },
+    {
+      "entity": "button.unlock",
+      "state": "2026-11-02T16:10:07.131526+00:00",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Unlock"
+    },
+    {
+      "entity": "button.unlock",
+      "state": "2026-11-03T08:01:09.237627+00:00",
+      "last_changed": "2026-11-03T08:01:09.237741+00:00",
+      "last_updated": null,
+      "friendly_name": "Unlock"
+    },
+    {
+      "entity": "button.unlock",
+      "state": "2026-11-03T08:03:08.669373+00:00",
+      "last_changed": "2026-11-03T08:03:08.669524+00:00",
+      "last_updated": null,
+      "friendly_name": "Unlock"
+    },
+    {
+      "entity": "binary_sensor.ignition",
+      "state": "off",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Ignition",
+      "device_class": "running"
+    },
+    {
+      "entity": "binary_sensor.ignition",
+      "state": "on",
+      "last_changed": "2026-11-03T07:45:14.002940+00:00",
+      "last_updated": null,
+      "friendly_name": "Ignition",
+      "device_class": "running"
+    },
+    {
+      "entity": "binary_sensor.ignition",
+      "state": "off",
+      "last_changed": "2026-11-03T07:49:48.472989+00:00",
+      "last_updated": null,
+      "friendly_name": "Ignition",
+      "device_class": "running"
+    },
+    {
+      "entity": "binary_sensor.ignition",
+      "state": "on",
+      "last_changed": "2026-11-03T07:51:20.386988+00:00",
+      "last_updated": null,
+      "friendly_name": "Ignition",
+      "device_class": "running"
+    },
+    {
+      "entity": "binary_sensor.ignition",
+      "state": "off",
+      "last_changed": "2026-11-03T07:54:43.478326+00:00",
+      "last_updated": null,
+      "friendly_name": "Ignition",
+      "device_class": "running"
+    },
+    {
+      "entity": "binary_sensor.ignition",
+      "state": "on",
+      "last_changed": "2026-11-03T07:55:26.539353+00:00",
+      "last_updated": null,
+      "friendly_name": "Ignition",
+      "device_class": "running"
+    },
+    {
+      "entity": "binary_sensor.ignition",
+      "state": "off",
+      "last_changed": "2026-11-03T07:56:06.351201+00:00",
+      "last_updated": null,
+      "friendly_name": "Ignition",
+      "device_class": "running"
+    },
+    {
+      "entity": "binary_sensor.ignition",
+      "state": "on",
+      "last_changed": "2026-11-03T07:56:58.670015+00:00",
+      "last_updated": null,
+      "friendly_name": "Ignition",
+      "device_class": "running"
+    },
+    {
+      "entity": "binary_sensor.ignition",
+      "state": "off",
+      "last_changed": "2026-11-03T07:57:48.683904+00:00",
+      "last_updated": null,
+      "friendly_name": "Ignition",
+      "device_class": "running"
+    },
+    {
+      "entity": "binary_sensor.ignition",
+      "state": "on",
+      "last_changed": "2026-11-03T07:58:41.715044+00:00",
+      "last_updated": null,
+      "friendly_name": "Ignition",
+      "device_class": "running"
+    },
+    {
+      "entity": "binary_sensor.ignition",
+      "state": "off",
+      "last_changed": "2026-11-03T07:59:29.995774+00:00",
+      "last_updated": null,
+      "friendly_name": "Ignition",
+      "device_class": "running"
+    },
+    {
+      "entity": "binary_sensor.ignition",
+      "state": "on",
+      "last_changed": "2026-11-03T08:00:33.713369+00:00",
+      "last_updated": null,
+      "friendly_name": "Ignition",
+      "device_class": "running"
+    },
+    {
+      "entity": "binary_sensor.ignition",
+      "state": "off",
+      "last_changed": "2026-11-03T08:01:12.514688+00:00",
+      "last_updated": null,
+      "friendly_name": "Ignition",
+      "device_class": "running"
+    },
+    {
+      "entity": "binary_sensor.ignition",
+      "state": "on",
+      "last_changed": "2026-11-03T08:02:20.364915+00:00",
+      "last_updated": null,
+      "friendly_name": "Ignition",
+      "device_class": "running"
+    },
+    {
+      "entity": "binary_sensor.ignition",
+      "state": "off",
+      "last_changed": "2026-11-03T08:03:10.382712+00:00",
+      "last_updated": null,
+      "friendly_name": "Ignition",
+      "device_class": "running"
+    },
+    {
+      "entity": "binary_sensor.ignition",
+      "state": "on",
+      "last_changed": "2026-11-03T08:08:42.291445+00:00",
+      "last_updated": null,
+      "friendly_name": "Ignition",
+      "device_class": "running"
+    },
+    {
+      "entity": "binary_sensor.ignition",
+      "state": "off",
+      "last_changed": "2026-11-03T08:09:16.489765+00:00",
+      "last_updated": null,
+      "friendly_name": "Ignition",
+      "device_class": "running"
+    },
+    {
+      "entity": "binary_sensor.online",
+      "state": "on",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Online",
+      "device_class": "connectivity"
+    },
+    {
+      "entity": "binary_sensor.moving",
+      "state": "off",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Moving",
+      "device_class": "moving"
+    },
+    {
+      "entity": "binary_sensor.central_lock",
+      "state": "off",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Central Lock",
+      "device_class": "lock"
+    },
+    {
+      "entity": "binary_sensor.central_lock",
+      "state": "on",
+      "last_changed": "2026-11-03T08:01:12.514810+00:00",
+      "last_updated": null,
+      "friendly_name": "Central Lock",
+      "device_class": "lock"
+    },
+    {
+      "entity": "binary_sensor.central_lock",
+      "state": "off",
+      "last_changed": "2026-11-03T08:01:43.723458+00:00",
+      "last_updated": null,
+      "friendly_name": "Central Lock",
+      "device_class": "lock"
+    },
+    {
+      "entity": "binary_sensor.central_lock",
+      "state": "on",
+      "last_changed": "2026-11-03T08:03:10.382785+00:00",
+      "last_updated": null,
+      "friendly_name": "Central Lock",
+      "device_class": "lock"
+    },
+    {
+      "entity": "binary_sensor.central_lock",
+      "state": "off",
+      "last_changed": "2026-11-03T08:03:42.045830+00:00",
+      "last_updated": null,
+      "friendly_name": "Central Lock",
+      "device_class": "lock"
+    },
+    {
+      "entity": "binary_sensor.door_fl",
+      "state": "off",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Driver Door",
+      "device_class": "door"
+    },
+    {
+      "entity": "binary_sensor.door_fr",
+      "state": "off",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Passenger Door",
+      "device_class": "door"
+    },
+    {
+      "entity": "binary_sensor.door_rl",
+      "state": "off",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Rear Left Door",
+      "device_class": "door"
+    },
+    {
+      "entity": "binary_sensor.door_rr",
+      "state": "off",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Rear Right Door",
+      "device_class": "door"
+    },
+    {
+      "entity": "binary_sensor.charging",
+      "state": "off",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Charging",
+      "device_class": "battery_charging"
+    },
+    {
+      "entity": "binary_sensor.charging_gun",
+      "state": "off",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Charging Gun",
+      "device_class": "plug"
+    },
+    {
+      "entity": "sensor.battery_percentage",
+      "state": "100",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Battery",
+      "unit_of_measurement": "%",
+      "device_class": "battery"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "12.8999996185303",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "12.8900003433228",
+      "last_changed": "2026-11-03T07:44:54.744434+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "12.63",
+      "last_changed": "2026-11-03T07:45:04.699778+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "12.62",
+      "last_changed": "2026-11-03T07:45:08.827628+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "13.64",
+      "last_changed": "2026-11-03T07:45:15.690102+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "13.6800003051758",
+      "last_changed": "2026-11-03T07:45:17.157570+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "13.67",
+      "last_changed": "2026-11-03T07:45:26.784477+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "13.64",
+      "last_changed": "2026-11-03T07:45:41.949599+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "13.6899995803833",
+      "last_changed": "2026-11-03T07:47:27.561086+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "12.6800003051758",
+      "last_changed": "2026-11-03T07:50:37.176336+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "13.6800003051758",
+      "last_changed": "2026-11-03T07:51:22.723706+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "13.6899995803833",
+      "last_changed": "2026-11-03T07:51:51.534004+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "13.0500001907349",
+      "last_changed": "2026-11-03T07:55:07.991587+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "13.5799999237061",
+      "last_changed": "2026-11-03T07:55:26.536096+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "12.66",
+      "last_changed": "2026-11-03T07:56:35.881992+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "12.5799999237061",
+      "last_changed": "2026-11-03T07:56:52.312512+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "13.6599998474121",
+      "last_changed": "2026-11-03T07:56:59.982262+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "13.6899995803833",
+      "last_changed": "2026-11-03T07:57:29.449273+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "12.6599998474121",
+      "last_changed": "2026-11-03T07:58:11.047517+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "12.4799995422363",
+      "last_changed": "2026-11-03T07:58:31.556321+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "13.6700000762939",
+      "last_changed": "2026-11-03T07:58:42.183688+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "12.6599998474121",
+      "last_changed": "2026-11-03T07:59:43.204059+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "13.6599998474121",
+      "last_changed": "2026-11-03T08:00:33.711442+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "12.6599998474121",
+      "last_changed": "2026-11-03T08:01:34.546678+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "12.4200000762939",
+      "last_changed": "2026-11-03T08:02:04.617788+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "13.6700000762939",
+      "last_changed": "2026-11-03T08:02:23.283704+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "13.6800003051758",
+      "last_changed": "2026-11-03T08:02:35.991196+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "12.6700000762939",
+      "last_changed": "2026-11-03T08:03:22.711136+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "12.3199996948242",
+      "last_changed": "2026-11-03T08:05:11.265651+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "12.5600004196167",
+      "last_changed": "2026-11-03T08:07:43.887914+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "12.5900001525879",
+      "last_changed": "2026-11-03T08:08:33.668838+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.battery_voltage",
+      "state": "13.6700000762939",
+      "last_changed": "2026-11-03T08:08:45.250231+00:00",
+      "last_updated": null,
+      "friendly_name": "12V Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "375.3",
+      "last_changed": "2026-11-03T07:45:04.754925+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "375.2",
+      "last_changed": "2026-11-03T07:45:15.061466+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "375.0",
+      "last_changed": "2026-11-03T07:45:15.969987+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.9",
+      "last_changed": "2026-11-03T07:45:25.320272+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "375.0",
+      "last_changed": "2026-11-03T07:45:27.039783+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.9",
+      "last_changed": "2026-11-03T07:45:41.597697+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.7",
+      "last_changed": "2026-11-03T07:45:54.289124+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.9",
+      "last_changed": "2026-11-03T07:45:55.752066+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.7",
+      "last_changed": "2026-11-03T07:46:12.309079+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.6",
+      "last_changed": "2026-11-03T07:46:55.848869+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.4",
+      "last_changed": "2026-11-03T07:47:44.416666+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.6",
+      "last_changed": "2026-11-03T07:47:46.836154+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.4",
+      "last_changed": "2026-11-03T07:48:15.163478+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.6",
+      "last_changed": "2026-11-03T07:48:27.971589+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.4",
+      "last_changed": "2026-11-03T07:48:45.920159+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.3",
+      "last_changed": "2026-11-03T07:48:47.391553+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.1",
+      "last_changed": "2026-11-03T07:49:47.322768+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.3",
+      "last_changed": "2026-11-03T07:49:48.470226+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.4",
+      "last_changed": "2026-11-03T07:50:00.797194+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.6",
+      "last_changed": "2026-11-03T07:50:18.028854+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.4",
+      "last_changed": "2026-11-03T07:50:33.993944+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.6",
+      "last_changed": "2026-11-03T07:50:39.224534+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.4",
+      "last_changed": "2026-11-03T07:50:49.936120+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.6",
+      "last_changed": "2026-11-03T07:51:02.227221+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.4",
+      "last_changed": "2026-11-03T07:51:10.512971+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.3",
+      "last_changed": "2026-11-03T07:51:20.384102+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.1",
+      "last_changed": "2026-11-03T07:51:32.584547+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.0",
+      "last_changed": "2026-11-03T07:52:35.786418+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.8",
+      "last_changed": "2026-11-03T07:53:54.368466+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.0",
+      "last_changed": "2026-11-03T07:54:55.839473+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.1",
+      "last_changed": "2026-11-03T07:55:16.588264+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.8",
+      "last_changed": "2026-11-03T07:55:27.857615+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.7",
+      "last_changed": "2026-11-03T07:55:38.335621+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.8",
+      "last_changed": "2026-11-03T07:56:05.585863+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.0",
+      "last_changed": "2026-11-03T07:56:27.906372+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.8",
+      "last_changed": "2026-11-03T07:56:35.638332+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.0",
+      "last_changed": "2026-11-03T07:56:38.950860+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.7",
+      "last_changed": "2026-11-03T07:57:09.357201+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.5",
+      "last_changed": "2026-11-03T07:57:40.289457+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.8",
+      "last_changed": "2026-11-03T07:57:49.570895+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "374.0",
+      "last_changed": "2026-11-03T07:58:31.556531+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.8",
+      "last_changed": "2026-11-03T07:58:41.713058+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.7",
+      "last_changed": "2026-11-03T07:59:01.932946+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.5",
+      "last_changed": "2026-11-03T07:59:12.424867+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.7",
+      "last_changed": "2026-11-03T07:59:30.858072+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.8",
+      "last_changed": "2026-11-03T07:59:43.204245+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.5",
+      "last_changed": "2026-11-03T08:00:33.711715+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.4",
+      "last_changed": "2026-11-03T08:01:04.432984+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.5",
+      "last_changed": "2026-11-03T08:01:12.512974+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.7",
+      "last_changed": "2026-11-03T08:01:42.175623+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.5",
+      "last_changed": "2026-11-03T08:01:42.646240+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.8",
+      "last_changed": "2026-11-03T08:02:04.618036+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.7",
+      "last_changed": "2026-11-03T08:02:18.261038+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.4",
+      "last_changed": "2026-11-03T08:02:23.283994+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.2",
+      "last_changed": "2026-11-03T08:02:46.168684+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.5",
+      "last_changed": "2026-11-03T08:03:16.899650+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.7",
+      "last_changed": "2026-11-03T08:03:19.609684+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.5",
+      "last_changed": "2026-11-03T08:03:40.017462+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.7",
+      "last_changed": "2026-11-03T08:04:41.088969+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.5",
+      "last_changed": "2026-11-03T08:04:49.093620+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.7",
+      "last_changed": "2026-11-03T08:04:51.215482+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.5",
+      "last_changed": "2026-11-03T08:05:10.138825+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.7",
+      "last_changed": "2026-11-03T08:05:21.313447+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.5",
+      "last_changed": "2026-11-03T08:05:51.568733+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.7",
+      "last_changed": "2026-11-03T08:06:11.699761+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.5",
+      "last_changed": "2026-11-03T08:06:22.033798+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T08:07:12.774799+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.7",
+      "last_changed": "2026-11-03T08:08:38.669192+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.2",
+      "last_changed": "2026-11-03T08:08:44.150107+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.4",
+      "last_changed": "2026-11-03T08:08:49.830390+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.2",
+      "last_changed": "2026-11-03T08:09:03.987182+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_voltage",
+      "state": "373.4",
+      "last_changed": "2026-11-03T08:09:19.407516+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Voltage",
+      "unit_of_measurement": "V",
+      "device_class": "voltage"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.0",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "1.1",
+      "last_changed": "2026-11-03T07:45:16.026194+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.9",
+      "last_changed": "2026-11-03T07:45:21.208802+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.8",
+      "last_changed": "2026-11-03T07:45:26.230757+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.6",
+      "last_changed": "2026-11-03T07:45:54.289552+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.8",
+      "last_changed": "2026-11-03T07:46:12.309512+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.6",
+      "last_changed": "2026-11-03T07:46:25.121761+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.0",
+      "last_changed": "2026-11-03T07:49:49.887814+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "1.0",
+      "last_changed": "2026-11-03T07:51:20.631011+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.8",
+      "last_changed": "2026-11-03T07:51:32.584784+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.6",
+      "last_changed": "2026-11-03T07:52:03.672841+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.8",
+      "last_changed": "2026-11-03T07:52:06.358448+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.6",
+      "last_changed": "2026-11-03T07:52:22.258264+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.5",
+      "last_changed": "2026-11-03T07:54:43.476726+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.0",
+      "last_changed": "2026-11-03T07:54:55.839631+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "1.1",
+      "last_changed": "2026-11-03T07:55:26.536788+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.9",
+      "last_changed": "2026-11-03T07:55:28.912985+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.8",
+      "last_changed": "2026-11-03T07:55:38.335848+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.0",
+      "last_changed": "2026-11-03T07:56:09.498686+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "1.1",
+      "last_changed": "2026-11-03T07:56:59.982481+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.9",
+      "last_changed": "2026-11-03T07:57:09.357407+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.8",
+      "last_changed": "2026-11-03T07:57:29.449877+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.6",
+      "last_changed": "2026-11-03T07:57:30.457981+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.8",
+      "last_changed": "2026-11-03T07:57:40.289632+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.6",
+      "last_changed": "2026-11-03T07:57:40.511782+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.8",
+      "last_changed": "2026-11-03T07:57:47.250862+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.0",
+      "last_changed": "2026-11-03T07:57:50.589492+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "1.1",
+      "last_changed": "2026-11-03T07:58:41.713394+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.8",
+      "last_changed": "2026-11-03T07:59:01.933108+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.6",
+      "last_changed": "2026-11-03T07:59:28.445316+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.0",
+      "last_changed": "2026-11-03T07:59:31.906524+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "1.0",
+      "last_changed": "2026-11-03T08:00:33.711860+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.9",
+      "last_changed": "2026-11-03T08:00:44.611313+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.8",
+      "last_changed": "2026-11-03T08:00:48.010807+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.0",
+      "last_changed": "2026-11-03T08:01:13.430202+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "1.0",
+      "last_changed": "2026-11-03T08:02:24.351866+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.8",
+      "last_changed": "2026-11-03T08:02:49.950560+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "1.1",
+      "last_changed": "2026-11-03T08:03:10.381678+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.0",
+      "last_changed": "2026-11-03T08:03:16.899837+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "1.1",
+      "last_changed": "2026-11-03T08:08:45.250558+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "1.0",
+      "last_changed": "2026-11-03T08:08:49.830607+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "0.8",
+      "last_changed": "2026-11-03T08:09:05.150050+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_current",
+      "state": "1.0",
+      "last_changed": "2026-11-03T08:09:15.568065+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Current",
+      "unit_of_measurement": "A",
+      "device_class": "current"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.0",
+      "last_changed": "2026-11-03T07:45:04.755485+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T07:45:05.040806+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.0",
+      "last_changed": "2026-11-03T07:45:05.200941+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T07:45:15.062145+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.413",
+      "last_changed": "2026-11-03T07:45:16.131250+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T07:45:20.251475+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.338",
+      "last_changed": "2026-11-03T07:45:21.209239+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.337",
+      "last_changed": "2026-11-03T07:45:25.320776+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.3",
+      "last_changed": "2026-11-03T07:45:26.231171+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T07:45:27.040295+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.3",
+      "last_changed": "2026-11-03T07:45:27.185637+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T07:45:42.289603+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.3",
+      "last_changed": "2026-11-03T07:45:42.461177+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T07:45:46.486870+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.225",
+      "last_changed": "2026-11-03T07:45:54.289852+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.3",
+      "last_changed": "2026-11-03T07:46:12.309849+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.225",
+      "last_changed": "2026-11-03T07:46:25.122222+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.224",
+      "last_changed": "2026-11-03T07:49:47.323434+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.225",
+      "last_changed": "2026-11-03T07:49:48.470752+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.0",
+      "last_changed": "2026-11-03T07:49:49.888160+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.374",
+      "last_changed": "2026-11-03T07:51:20.631489+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.299",
+      "last_changed": "2026-11-03T07:51:32.584942+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.224",
+      "last_changed": "2026-11-03T07:52:03.673249+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.299",
+      "last_changed": "2026-11-03T07:52:06.358862+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.224",
+      "last_changed": "2026-11-03T07:52:22.258662+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.187",
+      "last_changed": "2026-11-03T07:54:43.476968+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.0",
+      "last_changed": "2026-11-03T07:54:55.839725+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.412",
+      "last_changed": "2026-11-03T07:55:26.537074+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.411",
+      "last_changed": "2026-11-03T07:55:27.858044+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.336",
+      "last_changed": "2026-11-03T07:55:28.913306+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.299",
+      "last_changed": "2026-11-03T07:55:38.336013+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.0",
+      "last_changed": "2026-11-03T07:56:09.499164+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.411",
+      "last_changed": "2026-11-03T07:56:59.982571+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.336",
+      "last_changed": "2026-11-03T07:57:09.357506+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.299",
+      "last_changed": "2026-11-03T07:57:29.450218+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.224",
+      "last_changed": "2026-11-03T07:57:30.458332+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.299",
+      "last_changed": "2026-11-03T07:57:40.289749+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.224",
+      "last_changed": "2026-11-03T07:57:40.511944+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.299",
+      "last_changed": "2026-11-03T07:57:47.251050+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.0",
+      "last_changed": "2026-11-03T07:57:50.589814+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.411",
+      "last_changed": "2026-11-03T07:58:41.713538+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.299",
+      "last_changed": "2026-11-03T07:59:01.933209+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.224",
+      "last_changed": "2026-11-03T07:59:28.445650+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.0",
+      "last_changed": "2026-11-03T07:59:31.906736+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.373",
+      "last_changed": "2026-11-03T08:00:33.711992+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.336",
+      "last_changed": "2026-11-03T08:00:44.611501+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.299",
+      "last_changed": "2026-11-03T08:00:48.011103+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.0",
+      "last_changed": "2026-11-03T08:01:13.430413+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.373",
+      "last_changed": "2026-11-03T08:02:24.352031+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.299",
+      "last_changed": "2026-11-03T08:02:49.950796+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.411",
+      "last_changed": "2026-11-03T08:03:10.381828+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.0",
+      "last_changed": "2026-11-03T08:03:16.899960+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "unavailable",
+      "last_changed": "2026-11-03T08:07:12.774990+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.0",
+      "last_changed": "2026-11-03T08:08:38.669429+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.411",
+      "last_changed": "2026-11-03T08:08:45.250709+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.373",
+      "last_changed": "2026-11-03T08:08:49.830750+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.299",
+      "last_changed": "2026-11-03T08:09:05.150233+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.hv_battery_power",
+      "state": "0.373",
+      "last_changed": "2026-11-03T08:09:15.568237+00:00",
+      "last_updated": null,
+      "friendly_name": "HV Battery Power",
+      "unit_of_measurement": "kW",
+      "device_class": "power"
+    },
+    {
+      "entity": "sensor.speed",
+      "state": "0",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Speed",
+      "unit_of_measurement": "km/h",
+      "device_class": "speed"
+    },
+    {
+      "entity": "sensor.coolant_temp",
+      "state": "34",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Coolant Temperature",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature"
+    },
+    {
+      "entity": "sensor.coolant_temp",
+      "state": "4",
+      "last_changed": "2026-11-03T07:46:25.122918+00:00",
+      "last_updated": null,
+      "friendly_name": "Coolant Temperature",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature"
+    },
+    {
+      "entity": "sensor.coolant_temp",
+      "state": "3",
+      "last_changed": "2026-11-03T07:56:58.668715+00:00",
+      "last_updated": null,
+      "friendly_name": "Coolant Temperature",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature"
+    },
+    {
+      "entity": "sensor.battery_temp",
+      "state": "9",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Battery Temperature",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature"
+    },
+    {
+      "entity": "sensor.battery_temp",
+      "state": "8",
+      "last_changed": "2026-11-03T07:45:14.000699+00:00",
+      "last_updated": null,
+      "friendly_name": "Battery Temperature",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature"
+    },
+    {
+      "entity": "sensor.battery_temp",
+      "state": "7",
+      "last_changed": "2026-11-03T08:08:42.290084+00:00",
+      "last_updated": null,
+      "friendly_name": "Battery Temperature",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature"
+    },
+    {
+      "entity": "sensor.outside_temp",
+      "state": "2",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Outside Temperature",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature"
+    },
+    {
+      "entity": "sensor.inboard_temp",
+      "state": "4",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Cabin Temperature",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature"
+    },
+    {
+      "entity": "sensor.climate_target_temp",
+      "state": "22.5",
+      "last_changed": "2026-11-03T07:44:00+00:00",
+      "last_updated": "2026-11-03T07:44:00+00:00",
+      "friendly_name": "Climate Target Temperature",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature"
+    }
+  ]
+}

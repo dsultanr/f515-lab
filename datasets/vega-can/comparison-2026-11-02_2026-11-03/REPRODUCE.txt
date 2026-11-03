@@ -1,0 +1,38 @@
+Vega Remote On paired-capture analysis, 2026-11-03
+
+Python 3.11, NumPy. Figures additionally require matplotlib and Pillow.
+Analysis was run with Python 3.11.17, NumPy 2.4.6, matplotlib 3.11.2.
+All scripts are offline. They contain no vehicle connection or transmit actions.
+
+Set these environment variables to the unpacked session folders (each contains
+raw/stream.bin and context/), and a new writable analysis output directory:
+
+export VEGA_LOW_SESSION=/path/to/vega-can-research-20261102
+export VEGA_HIGH_SESSION=/path/to/vega-can-research-20261103
+export VEGA_ANALYSIS_OUT=/path/to/results
+
+Run from the directory containing the supplied scripts:
+
+python3 final_analysis.py
+python3 verify_findings.py
+python3 plot_results.py
+
+Optional exploratory screens (their output is NOT a validated command list):
+python3 screen.py
+python3 transient_screen.py
+python3 active_screen.py
+
+The default paths also support the author's ~/vega/captures workspace layout.
+Source hashing invalidates parsed-frame caches when input BIN changes.
+No clock rollover exists in either source. Frame times are sorted stably.
+
+Report: REPORT.ru.txt / spec180 in the local ispace-research repository.
+findings.json contains cycle-level observations and transition brackets.
+evidence-records.csv independently locates the key records in the raw binary.
+verification.json records CRC, SHA256, positive/control-cycle checks.
+comparison.png/svg align cycles to observed CAN key-state 0x341 changing to 3.
+Dotted vertical lines in the RPM plot mark CAN key-state leaving 3.
+Gaps >0.5 seconds are not connected; no zero filling across missing data.
+Two buses observing a mirrored signal are not independent replications.
+No calibrated HA-to-CAN millisecond precision is claimed for the low-SOC data.
+Neither observed state transitions nor candidate flags prove a transmit command.

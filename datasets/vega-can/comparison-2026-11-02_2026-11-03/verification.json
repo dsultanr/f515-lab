@@ -1,0 +1,22 @@
+{
+  "verified": true,
+  "sources": {
+    "2": {
+      "frames": 632580,
+      "can_packets": 25858,
+      "keyed_records_verified": 38,
+      "raw_sha256": "d9cd98db9e8a9c6a54ac96e49b3373c7a3f0c06a8990ae9643123428ec2a75eb"
+    },
+    "3": {
+      "frames": 1563506,
+      "can_packets": 61261,
+      "keyed_records_verified": 10,
+      "raw_sha256": "a7bab2e794a64498ddf2e2da4bb4ea6eb83750b75cc7199fd3b6e9e7db973510"
+    }
+  },
+  "evidence_rows": 48,
+  "positive_cycles": 4,
+  "full_soc_control_cycles": 5,
+  "gcu3_precedes_observed_rpm_in_all_transition_brackets": true,
+  "note": "Integrity and observed sequence verified. No ECU actuation or causal replay test was performed."
+}

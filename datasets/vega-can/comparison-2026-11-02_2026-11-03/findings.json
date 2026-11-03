@@ -1,0 +1,1311 @@
+{
+  "2": {
+    "frames": 632580,
+    "cycles": [
+      {
+        "label": "L1",
+        "command_msk": "2026-11-02T19:07:36.663000+03:00",
+        "ha_tx_relative_s": 114.00100016593933,
+        "can_key_on": {
+          "first_s": 116.165,
+          "previous_s": 116.145,
+          "previous_value": 1.0,
+          "value": 3.0,
+          "payload": "03000008120000c8",
+          "previous_payload": "0100000812000008",
+          "gap_ms": 20.0,
+          "tracker_ms": 857248785
+        },
+        "can_key_off": {
+          "first_s": 129.866,
+          "previous_s": 129.846,
+          "previous_value": 3.0,
+          "value": 1.0,
+          "payload": "0100000812000008",
+          "previous_payload": "43000008120000c8",
+          "gap_ms": 20.0,
+          "tracker_ms": 857262486
+        },
+        "stop_action": "off",
+        "gcu3": {
+          "first_s": 120.964,
+          "previous_s": 120.565,
+          "previous_value": 2.0,
+          "value": 3.0,
+          "payload": "31f40058a25882b0",
+          "previous_payload": "21f40058a2580e62",
+          "gap_ms": 399.0,
+          "tracker_ms": 857253584
+        },
+        "gcu4": {
+          "first_s": 121.364,
+          "previous_s": 120.964,
+          "previous_value": 3.0,
+          "value": 4.0,
+          "payload": "44c78057627c866f",
+          "previous_payload": "31f40058a25882b0",
+          "gap_ms": 400.0,
+          "tracker_ms": 857253984
+        },
+        "rpm_gt100": {
+          "first_s": 121.287,
+          "previous_s": 121.267,
+          "previous_value": 0.0,
+          "value": 1747.0,
+          "payload": "80d9111b4ce20a3b",
+          "previous_payload": "80d9110004e20976",
+          "gap_ms": 20.0,
+          "tracker_ms": 857253907
+        },
+        "ems3": {
+          "first_s": 121.495,
+          "previous_s": 121.194,
+          "previous_value": 2.0,
+          "value": 3.0,
+          "payload": "2b3b4b0085a2b408",
+          "previous_payload": "2a3b4b0085a69575",
+          "gap_ms": 301.0,
+          "tracker_ms": 857254115
+        },
+        "ems4": {
+          "first_s": 122.194,
+          "previous_s": 122.095,
+          "previous_value": 3.0,
+          "value": 4.0,
+          "payload": "2c3b4b0045a017ba",
+          "previous_payload": "2b3b4b0045a012bb",
+          "gap_ms": 99.0,
+          "tracker_ms": 857254814
+        },
+        "gcu_stop3": {
+          "first_s": 129.963,
+          "previous_s": 129.863,
+          "previous_value": 4.0,
+          "value": 3.0,
+          "payload": "34838059224a446c",
+          "previous_payload": "44844059224c4f86",
+          "gap_ms": 100.0,
+          "tracker_ms": 857262583
+        },
+        "ems_stop5": {
+          "first_s": 129.994,
+          "previous_s": 129.894,
+          "previous_value": 4.0,
+          "value": 5.0,
+          "payload": "2d3b4b00c5a27de2",
+          "previous_payload": "2c3b4b0045a2583b",
+          "gap_ms": 100.0,
+          "tracker_ms": 857262614
+        },
+        "rpm_stop": {
+          "first_s": 130.766,
+          "previous_s": 130.747,
+          "previous_value": 365.0,
+          "value": 0.0,
+          "payload": "e09b000004e204d1",
+          "previous_payload": "e0730005b4e203d1",
+          "gap_ms": 19.0,
+          "tracker_ms": 857263386
+        },
+        "gcu3_first_to_rpm_first_s": 0.323,
+        "gcu3_to_rpm_transition_bracket_s": [
+          0.303,
+          0.722
+        ],
+        "rpm_peak": 2769.0,
+        "battery_current_min_a": -16.5,
+        "battery_current_max_a": 44.4,
+        "battery_power_min_kw": -5.919,
+        "battery_power_max_kw": 15.66
+      },
+      {
+        "label": "L2",
+        "command_msk": "2026-11-02T19:08:33.519000+03:00",
+        "ha_tx_relative_s": 170.85700011253357,
+        "can_key_on": {
+          "first_s": 174.085,
+          "previous_s": 171.985,
+          "previous_value": 1.0,
+          "value": 3.0,
+          "payload": "030000081a0000c8",
+          "previous_payload": "010000081a000008",
+          "gap_ms": 2100.0,
+          "tracker_ms": 857306705
+        },
+        "can_key_off": {
+          "first_s": 185.345,
+          "previous_s": 185.305,
+          "previous_value": 3.0,
+          "value": 1.0,
+          "payload": "0100000812000008",
+          "previous_payload": "43000008020000c8",
+          "gap_ms": 40.0,
+          "tracker_ms": 857317965
+        },
+        "stop_action": "off",
+        "gcu3": {
+          "first_s": 177.893,
+          "previous_s": 177.792,
+          "previous_value": 2.0,
+          "value": 3.0,
+          "payload": "31f40058a25882b0",
+          "previous_payload": "21f40058a2580d13",
+          "gap_ms": 101.0,
+          "tracker_ms": 857310513
+        },
+        "gcu4": {
+          "first_s": 177.993,
+          "previous_s": 177.893,
+          "previous_value": 3.0,
+          "value": 4.0,
+          "payload": "420ac058a2588743",
+          "previous_payload": "31f40058a25882b0",
+          "gap_ms": 100.0,
+          "tracker_ms": 857310613
+        },
+        "rpm_gt100": {
+          "first_s": 178.267,
+          "previous_s": 178.227,
+          "previous_value": 0.0,
+          "value": 2099.0,
+          "payload": "80cf1120cce20c41",
+          "previous_payload": "80d6110004e20a7a",
+          "gap_ms": 40.0,
+          "tracker_ms": 857310887
+        },
+        "ems3": {
+          "first_s": 178.333,
+          "previous_s": 178.232,
+          "previous_value": 2.0,
+          "value": 3.0,
+          "payload": "2b3c4b0085a25fdb",
+          "previous_payload": "2a3c4b0085a61a8f",
+          "gap_ms": 101.0,
+          "tracker_ms": 857310953
+        },
+        "ems4": {
+          "first_s": 179.133,
+          "previous_s": 179.032,
+          "previous_value": 3.0,
+          "value": 4.0,
+          "payload": "2c3c4b0045a01739",
+          "previous_payload": "2b3c4b0005a032ba",
+          "gap_ms": 101.0,
+          "tracker_ms": 857311753
+        },
+        "gcu_stop3": {
+          "first_s": 185.492,
+          "previous_s": 185.192,
+          "previous_value": 4.0,
+          "value": 3.0,
+          "payload": "341e805922474ea0",
+          "previous_payload": "4483c059224c4f2f",
+          "gap_ms": 300.0,
+          "tracker_ms": 857318112
+        },
+        "ems_stop5": {
+          "first_s": 185.532,
+          "previous_s": 185.431,
+          "previous_value": 4.0,
+          "value": 5.0,
+          "payload": "2d3c4b00c5a2378e",
+          "previous_payload": "2c3c4b00c5a232e9",
+          "gap_ms": 101.0,
+          "tracker_ms": 857318152
+        },
+        "rpm_stop": {
+          "first_s": 186.347,
+          "previous_s": 186.327,
+          "previous_value": 151.0,
+          "value": 0.0,
+          "payload": "e0a9000004e2009f",
+          "previous_payload": "e0a800025ce20f75",
+          "gap_ms": 20.0,
+          "tracker_ms": 857318967
+        },
+        "gcu3_first_to_rpm_first_s": 0.374,
+        "gcu3_to_rpm_transition_bracket_s": [
+          0.334,
+          0.475
+        ],
+        "rpm_peak": 2761.0,
+        "battery_current_min_a": -16.7,
+        "battery_current_max_a": 40.3,
+        "battery_power_min_kw": -5.994,
+        "battery_power_max_kw": 14.214
+      },
+      {
+        "label": "L3",
+        "command_msk": "2026-11-02T19:09:44.593000+03:00",
+        "ha_tx_relative_s": 241.93099999427795,
+        "can_key_on": {
+          "first_s": 244.024,
+          "previous_s": 244.004,
+          "previous_value": 1.0,
+          "value": 3.0,
+          "payload": "0300000812000048",
+          "previous_payload": "0100000812000008",
+          "gap_ms": 20.0,
+          "tracker_ms": 857376644
+        },
+        "can_key_off": {
+          "first_s": 265.665,
+          "previous_s": 263.525,
+          "previous_value": 3.0,
+          "value": 1.0,
+          "payload": "010000081a000008",
+          "previous_payload": "430000081a0000c8",
+          "gap_ms": 2140.0,
+          "tracker_ms": 857398285
+        },
+        "stop_action": "unlock",
+        "gcu3": {
+          "first_s": 248.8,
+          "previous_s": 248.701,
+          "previous_value": 2.0,
+          "value": 3.0,
+          "payload": "31f400586258828c",
+          "previous_payload": "21f4005862580d2f",
+          "gap_ms": 99.0,
+          "tracker_ms": 857381420
+        },
+        "gcu4": {
+          "first_s": 249.0,
+          "previous_s": 248.8,
+          "previous_value": 3.0,
+          "value": 4.0,
+          "payload": "4282005822638ced",
+          "previous_payload": "31f400586258828c",
+          "gap_ms": 200.0,
+          "tracker_ms": 857381620
+        },
+        "rpm_gt100": {
+          "first_s": 249.156,
+          "previous_s": 249.116,
+          "previous_value": 0.0,
+          "value": 1737.0,
+          "payload": "80d9111b24e20a55",
+          "previous_payload": "80db110004e208f1",
+          "gap_ms": 40.0,
+          "tracker_ms": 857381776
+        },
+        "ems3": {
+          "first_s": 249.261,
+          "previous_s": 248.96,
+          "previous_value": 2.0,
+          "value": 3.0,
+          "payload": "2b3c4b0085a27fa8",
+          "previous_payload": "2a3c4b0085a69065",
+          "gap_ms": 301.0,
+          "tracker_ms": 857381881
+        },
+        "ems4": {
+          "first_s": 250.06,
+          "previous_s": 249.86,
+          "previous_value": 3.0,
+          "value": 4.0,
+          "payload": "2c3c4b0045a01739",
+          "previous_payload": "2b3c4b0085a03ded",
+          "gap_ms": 200.0,
+          "tracker_ms": 857382680
+        },
+        "gcu_stop3": null,
+        "ems_stop5": null,
+        "rpm_stop": {
+          "first_s": 265.676,
+          "previous_s": 263.556,
+          "previous_value": 2001.0,
+          "value": 0.0,
+          "payload": "e0a6060004e204c1",
+          "previous_payload": "60770b1f44e20afc",
+          "gap_ms": 2120.0,
+          "tracker_ms": 857398296
+        },
+        "gcu3_first_to_rpm_first_s": 0.356,
+        "gcu3_to_rpm_transition_bracket_s": [
+          0.316,
+          0.455
+        ],
+        "rpm_peak": 2749.0,
+        "battery_current_min_a": -16.9,
+        "battery_current_max_a": 39.1,
+        "battery_power_min_kw": -6.062,
+        "battery_power_max_kw": 13.783
+      },
+      {
+        "label": "L4",
+        "command_msk": "2026-11-02T19:11:09.845000+03:00",
+        "ha_tx_relative_s": 327.18300008773804,
+        "can_key_on": {
+          "first_s": 329.764,
+          "previous_s": 327.684,
+          "previous_value": 1.0,
+          "value": 3.0,
+          "payload": "030000081a0000c8",
+          "previous_payload": "010000081a000008",
+          "gap_ms": 2080.0,
+          "tracker_ms": 857462384
+        },
+        "can_key_off": {
+          "first_s": 348.104,
+          "previous_s": 345.964,
+          "previous_value": 3.0,
+          "value": 1.0,
+          "payload": "010000081a000008",
+          "previous_payload": "430000081a0000c8",
+          "gap_ms": 2140.0,
+          "tracker_ms": 857480724
+        },
+        "stop_action": "off",
+        "gcu3": {
+          "first_s": 334.148,
+          "previous_s": 333.948,
+          "previous_value": 2.0,
+          "value": 3.0,
+          "payload": "31fd805862578248",
+          "previous_payload": "21f40058625808bc",
+          "gap_ms": 200.0,
+          "tracker_ms": 857466768
+        },
+        "gcu4": {
+          "first_s": 335.048,
+          "previous_s": 334.148,
+          "previous_value": 3.0,
+          "value": 4.0,
+          "payload": "454a4058625e8f85",
+          "previous_payload": "31fd805862578248",
+          "gap_ms": 900.0,
+          "tracker_ms": 857467668
+        },
+        "rpm_gt100": {
+          "first_s": 334.466,
+          "previous_s": 334.447,
+          "previous_value": 0.0,
+          "value": 1947.0,
+          "payload": "80d4111e6ce2094f",
+          "previous_payload": "80d8110004e2080d",
+          "gap_ms": 19.0,
+          "tracker_ms": 857467086
+        },
+        "ems3": {
+          "first_s": 334.488,
+          "previous_s": 334.388,
+          "previous_value": 2.0,
+          "value": 3.0,
+          "payload": "2b3c4b0085a3da42",
+          "previous_payload": "2a3c4b0085a655f3",
+          "gap_ms": 100.0,
+          "tracker_ms": 857467108
+        },
+        "ems4": {
+          "first_s": 335.288,
+          "previous_s": 335.188,
+          "previous_value": 3.0,
+          "value": 4.0,
+          "payload": "2c3c4b0045a012aa",
+          "previous_payload": "2b3c4b0085a03ded",
+          "gap_ms": 100.0,
+          "tracker_ms": 857467908
+        },
+        "gcu_stop3": {
+          "first_s": 348.347,
+          "previous_s": 345.548,
+          "previous_value": 4.0,
+          "value": 3.0,
+          "payload": "31f38058a2588810",
+          "previous_payload": "44834058e24b4c3c",
+          "gap_ms": 2799.0,
+          "tracker_ms": 857480967
+        },
+        "ems_stop5": {
+          "first_s": 348.288,
+          "previous_s": 345.987,
+          "previous_value": 4.0,
+          "value": 5.0,
+          "payload": "2d3c4b0085a37c56",
+          "previous_payload": "2c3d4b0045a339bf",
+          "gap_ms": 2301.0,
+          "tracker_ms": 857480908
+        },
+        "rpm_stop": {
+          "first_s": 348.525,
+          "previous_s": 348.505,
+          "previous_value": 157.0,
+          "value": 0.0,
+          "payload": "e0a3000004e2089e",
+          "previous_payload": "e0a2000274e207eb",
+          "gap_ms": 20.0,
+          "tracker_ms": 857481145
+        },
+        "gcu3_first_to_rpm_first_s": 0.318,
+        "gcu3_to_rpm_transition_bracket_s": [
+          0.299,
+          0.518
+        ],
+        "rpm_peak": 2739.0,
+        "battery_current_min_a": -17.0,
+        "battery_current_max_a": 35.6,
+        "battery_power_min_kw": -6.103,
+        "battery_power_max_kw": 12.549
+      }
+    ],
+    "controls": [
+      {
+        "id": "0x371",
+        "bus": 0,
+        "byte": 7,
+        "shift": 6,
+        "mask": 3,
+        "value": 1,
+        "cycles": [
+          {
+            "cycle": "L1",
+            "observed": true,
+            "offset_from_key_on_s": 4.557
+          },
+          {
+            "cycle": "L2",
+            "observed": true,
+            "offset_from_key_on_s": 3.436
+          },
+          {
+            "cycle": "L3",
+            "observed": true,
+            "offset_from_key_on_s": 4.295
+          },
+          {
+            "cycle": "L4",
+            "observed": true,
+            "offset_from_key_on_s": 3.953
+          }
+        ]
+      },
+      {
+        "id": "0x371",
+        "bus": 0,
+        "byte": 7,
+        "shift": 6,
+        "mask": 3,
+        "value": 2,
+        "cycles": [
+          {
+            "cycle": "L1",
+            "observed": true,
+            "offset_from_key_on_s": 6.957
+          },
+          {
+            "cycle": "L2",
+            "observed": true,
+            "offset_from_key_on_s": 6.036
+          },
+          {
+            "cycle": "L3",
+            "observed": true,
+            "offset_from_key_on_s": 7.495
+          },
+          {
+            "cycle": "L4",
+            "observed": true,
+            "offset_from_key_on_s": 6.553
+          }
+        ]
+      },
+      {
+        "id": "0x185",
+        "bus": 0,
+        "byte": 5,
+        "shift": 7,
+        "mask": 1,
+        "value": 1,
+        "cycles": [
+          {
+            "cycle": "L1",
+            "observed": true,
+            "offset_from_key_on_s": 3.459
+          },
+          {
+            "cycle": "L2",
+            "observed": true,
+            "offset_from_key_on_s": 0.737
+          },
+          {
+            "cycle": "L3",
+            "observed": true,
+            "offset_from_key_on_s": 3.496
+          },
+          {
+            "cycle": "L4",
+            "observed": true,
+            "offset_from_key_on_s": 1.354
+          }
+        ]
+      },
+      {
+        "id": "0x35A",
+        "bus": 0,
+        "byte": 4,
+        "shift": 5,
+        "mask": 1,
+        "value": 1,
+        "cycles": [
+          {
+            "cycle": "L1",
+            "observed": true,
+            "offset_from_key_on_s": 0.064
+          },
+          {
+            "cycle": "L2",
+            "observed": true,
+            "offset_from_key_on_s": 0.146
+          },
+          {
+            "cycle": "L3",
+            "observed": true,
+            "offset_from_key_on_s": 0.11
+          },
+          {
+            "cycle": "L4",
+            "observed": true,
+            "offset_from_key_on_s": 0.175
+          }
+        ]
+      },
+      {
+        "id": "0x379",
+        "bus": 0,
+        "byte": 3,
+        "shift": 2,
+        "mask": 1,
+        "value": 0,
+        "cycles": [
+          {
+            "cycle": "L1",
+            "observed": true,
+            "offset_from_key_on_s": 0.057
+          },
+          {
+            "cycle": "L2",
+            "observed": true,
+            "offset_from_key_on_s": 0.136
+          },
+          {
+            "cycle": "L3",
+            "observed": true,
+            "offset_from_key_on_s": 0.095
+          },
+          {
+            "cycle": "L4",
+            "observed": true,
+            "offset_from_key_on_s": 0.153
+          }
+        ]
+      },
+      {
+        "id": "0x10C",
+        "bus": 0,
+        "byte": 0,
+        "shift": 4,
+        "mask": 15,
+        "value": 3,
+        "cycles": [
+          {
+            "cycle": "L1",
+            "observed": true,
+            "offset_from_key_on_s": 4.799
+          },
+          {
+            "cycle": "L2",
+            "observed": true,
+            "offset_from_key_on_s": 3.808
+          },
+          {
+            "cycle": "L3",
+            "observed": true,
+            "offset_from_key_on_s": 4.776
+          },
+          {
+            "cycle": "L4",
+            "observed": true,
+            "offset_from_key_on_s": 4.384
+          }
+        ]
+      },
+      {
+        "id": "0x10C",
+        "bus": 0,
+        "byte": 0,
+        "shift": 4,
+        "mask": 15,
+        "value": 4,
+        "cycles": [
+          {
+            "cycle": "L1",
+            "observed": true,
+            "offset_from_key_on_s": 5.199
+          },
+          {
+            "cycle": "L2",
+            "observed": true,
+            "offset_from_key_on_s": 3.908
+          },
+          {
+            "cycle": "L3",
+            "observed": true,
+            "offset_from_key_on_s": 4.976
+          },
+          {
+            "cycle": "L4",
+            "observed": true,
+            "offset_from_key_on_s": 5.284
+          }
+        ]
+      },
+      {
+        "id": "0x181",
+        "bus": 0,
+        "byte": 0,
+        "shift": 0,
+        "mask": 7,
+        "value": 3,
+        "cycles": [
+          {
+            "cycle": "L1",
+            "observed": true,
+            "offset_from_key_on_s": 5.33
+          },
+          {
+            "cycle": "L2",
+            "observed": true,
+            "offset_from_key_on_s": 4.248
+          },
+          {
+            "cycle": "L3",
+            "observed": true,
+            "offset_from_key_on_s": 5.237
+          },
+          {
+            "cycle": "L4",
+            "observed": true,
+            "offset_from_key_on_s": 4.724
+          }
+        ]
+      },
+      {
+        "id": "0x181",
+        "bus": 0,
+        "byte": 0,
+        "shift": 0,
+        "mask": 7,
+        "value": 4,
+        "cycles": [
+          {
+            "cycle": "L1",
+            "observed": true,
+            "offset_from_key_on_s": 6.029
+          },
+          {
+            "cycle": "L2",
+            "observed": true,
+            "offset_from_key_on_s": 5.048
+          },
+          {
+            "cycle": "L3",
+            "observed": true,
+            "offset_from_key_on_s": 6.036
+          },
+          {
+            "cycle": "L4",
+            "observed": true,
+            "offset_from_key_on_s": 5.524
+          }
+        ]
+      }
+    ],
+    "target_id_counts": {
+      "0x011": 0,
+      "0x031": 0,
+      "0x092": 0,
+      "0x101": 0,
+      "0x102": 5989,
+      "0x103": 6152,
+      "0x105": 0,
+      "0x114": 0,
+      "0x121": 0,
+      "0x141": 0,
+      "0x151": 0,
+      "0x161": 0,
+      "0x162": 0,
+      "0x186": 0,
+      "0x187": 0,
+      "0x342": 0,
+      "0x393": 5350,
+      "0x394": 2654
+    },
+    "source_sha256": "d9cd98db9e8a9c6a54ac96e49b3373c7a3f0c06a8990ae9643123428ec2a75eb",
+    "soc_raw_range": [
+      118,
+      120
+    ],
+    "failed_remote_on": {
+      "command_msk": "2026-11-02T19:09:25.705000+03:00",
+      "relative_s": 223.04299998283386,
+      "rpm_samples_next_8s": 0,
+      "rpm_max_next_8s": null,
+      "key_states_next_8s": [
+        1
+      ]
+    }
+  },
+  "3": {
+    "frames": 1563506,
+    "cycles": [
+      {
+        "label": "H1",
+        "command_msk": "2026-11-03T10:55:17.828000+03:00",
+        "ha_tx_relative_s": 367.53704714775085,
+        "can_key_on": {
+          "first_s": 370.824,
+          "previous_s": 370.804,
+          "previous_value": 1.0,
+          "value": 3.0,
+          "payload": "0300000812000048",
+          "previous_payload": "0100000812000008",
+          "gap_ms": 20.0,
+          "tracker_ms": 914108618
+        },
+        "can_key_off": {
+          "first_s": 415.584,
+          "previous_s": 415.564,
+          "previous_value": 3.0,
+          "value": 1.0,
+          "payload": "0100000812000008",
+          "previous_payload": "43000008120000c8",
+          "gap_ms": 20.0,
+          "tracker_ms": 914153378
+        },
+        "stop_action": "off",
+        "gcu3": null,
+        "gcu4": null,
+        "rpm_gt100": null,
+        "ems3": null,
+        "ems4": null,
+        "gcu_stop3": null,
+        "ems_stop5": null,
+        "rpm_stop": null,
+        "gcu3_first_to_rpm_first_s": null,
+        "gcu3_to_rpm_transition_bracket_s": null,
+        "rpm_peak": 0.0,
+        "battery_current_min_a": 0.0,
+        "battery_current_max_a": 7.8,
+        "battery_power_min_kw": 0.0,
+        "battery_power_max_kw": 2.909
+      },
+      {
+        "label": "H2",
+        "command_msk": "2026-11-03T10:56:53.546000+03:00",
+        "ha_tx_relative_s": 463.255047082901,
+        "can_key_on": {
+          "first_s": 466.663,
+          "previous_s": 466.643,
+          "previous_value": 1.0,
+          "value": 3.0,
+          "payload": "0300000812000048",
+          "previous_payload": "0100000812000008",
+          "gap_ms": 20.0,
+          "tracker_ms": 914204457
+        },
+        "can_key_off": {
+          "first_s": 517.263,
+          "previous_s": 517.243,
+          "previous_value": 3.0,
+          "value": 1.0,
+          "payload": "0100000812000008",
+          "previous_payload": "43000008120000c8",
+          "gap_ms": 20.0,
+          "tracker_ms": 914255057
+        },
+        "stop_action": "off",
+        "gcu3": null,
+        "gcu4": null,
+        "rpm_gt100": null,
+        "ems3": null,
+        "ems4": null,
+        "gcu_stop3": null,
+        "ems_stop5": null,
+        "rpm_stop": null,
+        "gcu3_first_to_rpm_first_s": null,
+        "gcu3_to_rpm_transition_bracket_s": null,
+        "rpm_peak": 0.0,
+        "battery_current_min_a": 0.0,
+        "battery_current_max_a": 1.1,
+        "battery_power_min_kw": 0.0,
+        "battery_power_max_kw": 0.411
+      },
+      {
+        "label": "H3",
+        "command_msk": "2026-11-03T10:58:34.817000+03:00",
+        "ha_tx_relative_s": 564.5260469913483,
+        "can_key_on": {
+          "first_s": 567.982,
+          "previous_s": 567.962,
+          "previous_value": 1.0,
+          "value": 3.0,
+          "payload": "03000008120000c8",
+          "previous_payload": "0100000812000008",
+          "gap_ms": 20.0,
+          "tracker_ms": 914305776
+        },
+        "can_key_off": {
+          "first_s": 618.441,
+          "previous_s": 618.402,
+          "previous_value": 3.0,
+          "value": 1.0,
+          "payload": "0100000812000008",
+          "previous_payload": "43000008020000c8",
+          "gap_ms": 39.0,
+          "tracker_ms": 914356235
+        },
+        "stop_action": "off",
+        "gcu3": null,
+        "gcu4": null,
+        "rpm_gt100": null,
+        "ems3": null,
+        "ems4": null,
+        "gcu_stop3": null,
+        "ems_stop5": null,
+        "rpm_stop": null,
+        "gcu3_first_to_rpm_first_s": null,
+        "gcu3_to_rpm_transition_bracket_s": null,
+        "rpm_peak": 0.0,
+        "battery_current_min_a": 0.0,
+        "battery_current_max_a": 1.1,
+        "battery_power_min_kw": 0.0,
+        "battery_power_max_kw": 0.411
+      },
+      {
+        "label": "H4",
+        "command_msk": "2026-11-03T11:00:16.261000+03:00",
+        "ha_tx_relative_s": 665.9700469970703,
+        "can_key_on": {
+          "first_s": 669.261,
+          "previous_s": 669.241,
+          "previous_value": 1.0,
+          "value": 3.0,
+          "payload": "03000008120000c8",
+          "previous_payload": "0100000812000008",
+          "gap_ms": 20.0,
+          "tracker_ms": 914407055
+        },
+        "can_key_off": {
+          "first_s": 721.121,
+          "previous_s": 721.101,
+          "previous_value": 3.0,
+          "value": 1.0,
+          "payload": "0100000812000008",
+          "previous_payload": "43000008120000c8",
+          "gap_ms": 20.0,
+          "tracker_ms": 914458915
+        },
+        "stop_action": "unlock",
+        "gcu3": null,
+        "gcu4": null,
+        "rpm_gt100": null,
+        "ems3": null,
+        "ems4": null,
+        "gcu_stop3": null,
+        "ems_stop5": null,
+        "rpm_stop": null,
+        "gcu3_first_to_rpm_first_s": null,
+        "gcu3_to_rpm_transition_bracket_s": null,
+        "rpm_peak": 0.0,
+        "battery_current_min_a": 0.0,
+        "battery_current_max_a": 1.5,
+        "battery_power_min_kw": 0.0,
+        "battery_power_max_kw": 0.56
+      },
+      {
+        "label": "H5",
+        "command_msk": "2026-11-03T11:02:16.114000+03:00",
+        "ha_tx_relative_s": 785.8230471611023,
+        "can_key_on": {
+          "first_s": 789.36,
+          "previous_s": 789.34,
+          "previous_value": 1.0,
+          "value": 3.0,
+          "payload": "03000008120000c8",
+          "previous_payload": "0100000812000008",
+          "gap_ms": 20.0,
+          "tracker_ms": 914527154
+        },
+        "can_key_off": {
+          "first_s": 839.82,
+          "previous_s": 839.8,
+          "previous_value": 3.0,
+          "value": 1.0,
+          "payload": "0100000812000008",
+          "previous_payload": "43000008120000c8",
+          "gap_ms": 20.0,
+          "tracker_ms": 914577614
+        },
+        "stop_action": "unlock",
+        "gcu3": null,
+        "gcu4": null,
+        "rpm_gt100": null,
+        "ems3": null,
+        "ems4": null,
+        "gcu_stop3": null,
+        "ems_stop5": null,
+        "rpm_stop": null,
+        "gcu3_first_to_rpm_first_s": null,
+        "gcu3_to_rpm_transition_bracket_s": null,
+        "rpm_peak": 0.0,
+        "battery_current_min_a": 0.0,
+        "battery_current_max_a": 1.5,
+        "battery_power_min_kw": 0.0,
+        "battery_power_max_kw": 0.56
+      }
+    ],
+    "controls": [
+      {
+        "id": "0x371",
+        "bus": 0,
+        "byte": 7,
+        "shift": 6,
+        "mask": 3,
+        "value": 1,
+        "cycles": [
+          {
+            "cycle": "H1",
+            "observed": true,
+            "offset_from_key_on_s": 6.596
+          },
+          {
+            "cycle": "H2",
+            "observed": true,
+            "offset_from_key_on_s": 4.755
+          },
+          {
+            "cycle": "H3",
+            "observed": true,
+            "offset_from_key_on_s": 4.433
+          },
+          {
+            "cycle": "H4",
+            "observed": true,
+            "offset_from_key_on_s": 4.751
+          },
+          {
+            "cycle": "H5",
+            "observed": true,
+            "offset_from_key_on_s": 4.452
+          }
+        ]
+      },
+      {
+        "id": "0x371",
+        "bus": 0,
+        "byte": 7,
+        "shift": 6,
+        "mask": 3,
+        "value": 2,
+        "cycles": [
+          {
+            "cycle": "H1",
+            "observed": true,
+            "offset_from_key_on_s": 7.196
+          },
+          {
+            "cycle": "H2",
+            "observed": true,
+            "offset_from_key_on_s": 7.155
+          },
+          {
+            "cycle": "H3",
+            "observed": true,
+            "offset_from_key_on_s": 7.433
+          },
+          {
+            "cycle": "H4",
+            "observed": true,
+            "offset_from_key_on_s": 7.152
+          },
+          {
+            "cycle": "H5",
+            "observed": true,
+            "offset_from_key_on_s": 7.052
+          }
+        ]
+      },
+      {
+        "id": "0x185",
+        "bus": 0,
+        "byte": 5,
+        "shift": 7,
+        "mask": 1,
+        "value": 1,
+        "cycles": [
+          {
+            "cycle": "H1",
+            "observed": true,
+            "offset_from_key_on_s": 1.792
+          },
+          {
+            "cycle": "H2",
+            "observed": true,
+            "offset_from_key_on_s": 2.849
+          },
+          {
+            "cycle": "H3",
+            "observed": true,
+            "offset_from_key_on_s": 2.826
+          },
+          {
+            "cycle": "H4",
+            "observed": true,
+            "offset_from_key_on_s": 3.544
+          },
+          {
+            "cycle": "H5",
+            "observed": true,
+            "offset_from_key_on_s": 2.541
+          }
+        ]
+      },
+      {
+        "id": "0x35A",
+        "bus": 0,
+        "byte": 4,
+        "shift": 5,
+        "mask": 1,
+        "value": 1,
+        "cycles": [
+          {
+            "cycle": "H1",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H2",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H3",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H4",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H5",
+            "observed": false,
+            "offset_from_key_on_s": null
+          }
+        ]
+      },
+      {
+        "id": "0x379",
+        "bus": 0,
+        "byte": 3,
+        "shift": 2,
+        "mask": 1,
+        "value": 0,
+        "cycles": [
+          {
+            "cycle": "H1",
+            "observed": true,
+            "offset_from_key_on_s": 0.096
+          },
+          {
+            "cycle": "H2",
+            "observed": true,
+            "offset_from_key_on_s": 0.055
+          },
+          {
+            "cycle": "H3",
+            "observed": true,
+            "offset_from_key_on_s": 0.033
+          },
+          {
+            "cycle": "H4",
+            "observed": true,
+            "offset_from_key_on_s": 0.051
+          },
+          {
+            "cycle": "H5",
+            "observed": true,
+            "offset_from_key_on_s": 0.053
+          }
+        ]
+      },
+      {
+        "id": "0x10C",
+        "bus": 0,
+        "byte": 0,
+        "shift": 4,
+        "mask": 15,
+        "value": 3,
+        "cycles": [
+          {
+            "cycle": "H1",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H2",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H3",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H4",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H5",
+            "observed": false,
+            "offset_from_key_on_s": null
+          }
+        ]
+      },
+      {
+        "id": "0x10C",
+        "bus": 0,
+        "byte": 0,
+        "shift": 4,
+        "mask": 15,
+        "value": 4,
+        "cycles": [
+          {
+            "cycle": "H1",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H2",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H3",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H4",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H5",
+            "observed": false,
+            "offset_from_key_on_s": null
+          }
+        ]
+      },
+      {
+        "id": "0x181",
+        "bus": 0,
+        "byte": 0,
+        "shift": 0,
+        "mask": 7,
+        "value": 3,
+        "cycles": [
+          {
+            "cycle": "H1",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H2",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H3",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H4",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H5",
+            "observed": false,
+            "offset_from_key_on_s": null
+          }
+        ]
+      },
+      {
+        "id": "0x181",
+        "bus": 0,
+        "byte": 0,
+        "shift": 0,
+        "mask": 7,
+        "value": 4,
+        "cycles": [
+          {
+            "cycle": "H1",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H2",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H3",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H4",
+            "observed": false,
+            "offset_from_key_on_s": null
+          },
+          {
+            "cycle": "H5",
+            "observed": false,
+            "offset_from_key_on_s": null
+          }
+        ]
+      }
+    ],
+    "target_id_counts": {
+      "0x011": 0,
+      "0x031": 0,
+      "0x092": 0,
+      "0x101": 0,
+      "0x102": 29108,
+      "0x103": 29398,
+      "0x105": 0,
+      "0x114": 0,
+      "0x121": 0,
+      "0x141": 0,
+      "0x151": 0,
+      "0x161": 0,
+      "0x162": 0,
+      "0x186": 0,
+      "0x187": 0,
+      "0x342": 0,
+      "0x393": 11622,
+      "0x394": 5702
+    },
+    "source_sha256": "a7bab2e794a64498ddf2e2da4bb4ea6eb83750b75cc7199fd3b6e9e7db973510",
+    "soc_raw_range": [
+      1000,
+      1000
+    ]
+  }
+}

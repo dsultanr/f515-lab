@@ -1,0 +1,3413 @@
+{
+  "events": {
+    "2": [
+      {
+        "time": 1793635656.663,
+        "action": "on",
+        "time_msk": "2026-11-02T19:07:36.663000+03:00",
+        "rel": 114.00100016593933,
+        "label": "L1",
+        "control": false,
+        "rpm_rel": 121.287
+      },
+      {
+        "time": 1793635713.519,
+        "action": "on",
+        "time_msk": "2026-11-02T19:08:33.519000+03:00",
+        "rel": 170.85700011253357,
+        "label": "L2",
+        "control": false,
+        "rpm_rel": 178.267
+      },
+      {
+        "time": 1793635784.593,
+        "action": "on",
+        "time_msk": "2026-11-02T19:09:44.593000+03:00",
+        "rel": 241.93099999427795,
+        "label": "L3",
+        "control": false,
+        "rpm_rel": 249.156
+      },
+      {
+        "time": 1793635869.845,
+        "action": "on",
+        "time_msk": "2026-11-02T19:11:09.845000+03:00",
+        "rel": 327.18300008773804,
+        "label": "L4",
+        "control": false,
+        "rpm_rel": 334.466
+      }
+    ],
+    "3": [
+      {
+        "time": 1793692517.828,
+        "action": "on",
+        "time_msk": "2026-11-03T10:55:17.828000+03:00",
+        "rel": 367.53704714775085,
+        "label": "H1",
+        "control": true,
+        "rpm_rel": null
+      },
+      {
+        "time": 1793692613.546,
+        "action": "on",
+        "time_msk": "2026-11-03T10:56:53.546000+03:00",
+        "rel": 463.255047082901,
+        "label": "H2",
+        "control": true,
+        "rpm_rel": null
+      },
+      {
+        "time": 1793692714.817,
+        "action": "on",
+        "time_msk": "2026-11-03T10:58:34.817000+03:00",
+        "rel": 564.5260469913483,
+        "label": "H3",
+        "control": true,
+        "rpm_rel": null
+      },
+      {
+        "time": 1793692816.261,
+        "action": "on",
+        "time_msk": "2026-11-03T11:00:16.261000+03:00",
+        "rel": 665.9700469970703,
+        "label": "H4",
+        "control": true,
+        "rpm_rel": null
+      },
+      {
+        "time": 1793692936.114,
+        "action": "on",
+        "time_msk": "2026-11-03T11:02:16.114000+03:00",
+        "rel": 785.8230471611023,
+        "label": "H5",
+        "control": true,
+        "rpm_rel": null
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "bus": 0,
+      "can_id": "0x379",
+      "byte": 3,
+      "bit": 2,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 116.222,
+          "samples": 21,
+          "window_samples": 43,
+          "fraction": 0.4883720930232558
+        },
+        {
+          "baseline": 1,
+          "first_rel": 174.221,
+          "samples": 33,
+          "window_samples": 44,
+          "fraction": 0.75
+        },
+        {
+          "baseline": 1,
+          "first_rel": 244.119,
+          "samples": 27,
+          "window_samples": 48,
+          "fraction": 0.5625
+        },
+        {
+          "baseline": 1,
+          "first_rel": 329.917,
+          "samples": 42,
+          "window_samples": 47,
+          "fraction": 0.8936170212765957
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 63,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 51,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 49,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 49,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 47,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        5.065,
+        4.046,
+        5.037,
+        4.549
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x379",
+      "byte": 3,
+      "bit": 2,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 116.222,
+          "samples": 21,
+          "window_samples": 43,
+          "fraction": 0.4883720930232558
+        },
+        {
+          "baseline": 1,
+          "first_rel": 174.221,
+          "samples": 31,
+          "window_samples": 42,
+          "fraction": 0.7380952380952381
+        },
+        {
+          "baseline": 1,
+          "first_rel": 244.119,
+          "samples": 26,
+          "window_samples": 47,
+          "fraction": 0.5531914893617021
+        },
+        {
+          "baseline": 1,
+          "first_rel": 329.917,
+          "samples": 41,
+          "window_samples": 46,
+          "fraction": 0.8913043478260869
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 65,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 50,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 49,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 49,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 47,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        5.065,
+        4.046,
+        5.037,
+        4.549
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x35A",
+      "byte": 4,
+      "bit": 5,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": 116.228,
+          "samples": 19,
+          "window_samples": 41,
+          "fraction": 0.4634146341463415
+        },
+        {
+          "baseline": 0,
+          "first_rel": 174.231,
+          "samples": 28,
+          "window_samples": 39,
+          "fraction": 0.717948717948718
+        },
+        {
+          "baseline": 0,
+          "first_rel": 244.134,
+          "samples": 18,
+          "window_samples": 40,
+          "fraction": 0.45
+        },
+        {
+          "baseline": 0,
+          "first_rel": 329.939,
+          "samples": 32,
+          "window_samples": 37,
+          "fraction": 0.8648648648648649
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 56,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 46,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 48,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 49,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 49,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        5.059,
+        4.036,
+        5.022,
+        4.527
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x35A",
+      "byte": 4,
+      "bit": 5,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": 116.229,
+          "samples": 18,
+          "window_samples": 40,
+          "fraction": 0.45
+        },
+        {
+          "baseline": 0,
+          "first_rel": 174.231,
+          "samples": 30,
+          "window_samples": 41,
+          "fraction": 0.7317073170731707
+        },
+        {
+          "baseline": 0,
+          "first_rel": 244.134,
+          "samples": 17,
+          "window_samples": 39,
+          "fraction": 0.4358974358974359
+        },
+        {
+          "baseline": 0,
+          "first_rel": 329.939,
+          "samples": 34,
+          "window_samples": 39,
+          "fraction": 0.8717948717948718
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 57,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 46,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 49,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 49,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 49,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        5.058,
+        4.036,
+        5.022,
+        4.527
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x320",
+      "byte": 1,
+      "bit": 6,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": 119.362,
+          "samples": 10,
+          "window_samples": 40,
+          "fraction": 0.25
+        },
+        {
+          "baseline": 0,
+          "first_rel": 175.661,
+          "samples": 11,
+          "window_samples": 31,
+          "fraction": 0.3548387096774194
+        },
+        {
+          "baseline": 0,
+          "first_rel": 247.36,
+          "samples": 9,
+          "window_samples": 42,
+          "fraction": 0.21428571428571427
+        },
+        {
+          "baseline": 0,
+          "first_rel": 329.957,
+          "samples": 34,
+          "window_samples": 43,
+          "fraction": 0.7906976744186046
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 67,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 53,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 52,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 47,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 51,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        1.925,
+        2.606,
+        1.796,
+        4.509
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x320",
+      "byte": 1,
+      "bit": 7,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 119.362,
+          "samples": 10,
+          "window_samples": 40,
+          "fraction": 0.25
+        },
+        {
+          "baseline": 1,
+          "first_rel": 175.661,
+          "samples": 11,
+          "window_samples": 31,
+          "fraction": 0.3548387096774194
+        },
+        {
+          "baseline": 1,
+          "first_rel": 247.36,
+          "samples": 9,
+          "window_samples": 42,
+          "fraction": 0.21428571428571427
+        },
+        {
+          "baseline": 1,
+          "first_rel": 329.957,
+          "samples": 34,
+          "window_samples": 43,
+          "fraction": 0.7906976744186046
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 67,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 53,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 52,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 47,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 51,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        1.925,
+        2.606,
+        1.796,
+        4.509
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x320",
+      "byte": 1,
+      "bit": 6,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": 119.363,
+          "samples": 9,
+          "window_samples": 39,
+          "fraction": 0.23076923076923078
+        },
+        {
+          "baseline": 0,
+          "first_rel": 175.662,
+          "samples": 12,
+          "window_samples": 32,
+          "fraction": 0.375
+        },
+        {
+          "baseline": 0,
+          "first_rel": 247.36,
+          "samples": 9,
+          "window_samples": 40,
+          "fraction": 0.225
+        },
+        {
+          "baseline": 0,
+          "first_rel": 329.957,
+          "samples": 33,
+          "window_samples": 42,
+          "fraction": 0.7857142857142857
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 68,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 53,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 52,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 48,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 52,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        1.924,
+        2.605,
+        1.796,
+        4.509
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x320",
+      "byte": 1,
+      "bit": 7,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 119.363,
+          "samples": 9,
+          "window_samples": 39,
+          "fraction": 0.23076923076923078
+        },
+        {
+          "baseline": 1,
+          "first_rel": 175.662,
+          "samples": 12,
+          "window_samples": 32,
+          "fraction": 0.375
+        },
+        {
+          "baseline": 1,
+          "first_rel": 247.36,
+          "samples": 9,
+          "window_samples": 40,
+          "fraction": 0.225
+        },
+        {
+          "baseline": 1,
+          "first_rel": 329.957,
+          "samples": 33,
+          "window_samples": 42,
+          "fraction": 0.7857142857142857
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 68,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 53,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 52,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 48,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 52,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        1.924,
+        2.605,
+        1.796,
+        4.509
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x357",
+      "byte": 3,
+      "bit": 3,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 119.624,
+          "samples": 14,
+          "window_samples": 43,
+          "fraction": 0.32558139534883723
+        },
+        {
+          "baseline": 1,
+          "first_rel": 175.426,
+          "samples": 21,
+          "window_samples": 42,
+          "fraction": 0.5
+        },
+        {
+          "baseline": 1,
+          "first_rel": 247.53,
+          "samples": 15,
+          "window_samples": 47,
+          "fraction": 0.3191489361702128
+        },
+        {
+          "baseline": 1,
+          "first_rel": 331.731,
+          "samples": 27,
+          "window_samples": 49,
+          "fraction": 0.5510204081632653
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 1,
+          "window_samples": 57,
+          "fraction": 0.017543859649122806
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 51,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 46,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 50,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 47,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        1.663,
+        2.841,
+        1.626,
+        2.735
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x104",
+      "byte": 1,
+      "bit": 6,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 121.128,
+          "samples": 3,
+          "window_samples": 425,
+          "fraction": 0.007058823529411765
+        },
+        {
+          "baseline": 1,
+          "first_rel": 174.4,
+          "samples": 16,
+          "window_samples": 433,
+          "fraction": 0.03695150115473441
+        },
+        {
+          "baseline": 1,
+          "first_rel": 248.422,
+          "samples": 13,
+          "window_samples": 442,
+          "fraction": 0.029411764705882353
+        },
+        {
+          "baseline": 1,
+          "first_rel": 330.655,
+          "samples": 11,
+          "window_samples": 425,
+          "fraction": 0.02588235294117647
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 592,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 489,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 490,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.159,
+        3.867,
+        0.734,
+        3.811
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x104",
+      "byte": 1,
+      "bit": 6,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 121.128,
+          "samples": 3,
+          "window_samples": 416,
+          "fraction": 0.007211538461538462
+        },
+        {
+          "baseline": 1,
+          "first_rel": 174.4,
+          "samples": 15,
+          "window_samples": 418,
+          "fraction": 0.03588516746411483
+        },
+        {
+          "baseline": 1,
+          "first_rel": 248.422,
+          "samples": 14,
+          "window_samples": 435,
+          "fraction": 0.03218390804597701
+        },
+        {
+          "baseline": 1,
+          "first_rel": 330.655,
+          "samples": 11,
+          "window_samples": 418,
+          "fraction": 0.02631578947368421
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 592,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 491,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 493,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 488,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 486,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.159,
+        3.867,
+        0.734,
+        3.811
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x104",
+      "byte": 4,
+      "bit": 3,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 121.078,
+          "samples": 6,
+          "window_samples": 425,
+          "fraction": 0.01411764705882353
+        },
+        {
+          "baseline": 1,
+          "first_rel": 174.4,
+          "samples": 17,
+          "window_samples": 433,
+          "fraction": 0.03926096997690531
+        },
+        {
+          "baseline": 1,
+          "first_rel": 249.022,
+          "samples": 4,
+          "window_samples": 442,
+          "fraction": 0.00904977375565611
+        },
+        {
+          "baseline": 1,
+          "first_rel": 331.515,
+          "samples": 9,
+          "window_samples": 425,
+          "fraction": 0.021176470588235293
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 592,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 489,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 490,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.209,
+        3.867,
+        0.134,
+        2.951
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x104",
+      "byte": 4,
+      "bit": 3,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 121.078,
+          "samples": 6,
+          "window_samples": 416,
+          "fraction": 0.014423076923076924
+        },
+        {
+          "baseline": 1,
+          "first_rel": 174.4,
+          "samples": 16,
+          "window_samples": 418,
+          "fraction": 0.03827751196172249
+        },
+        {
+          "baseline": 1,
+          "first_rel": 249.022,
+          "samples": 4,
+          "window_samples": 435,
+          "fraction": 0.009195402298850575
+        },
+        {
+          "baseline": 1,
+          "first_rel": 331.515,
+          "samples": 9,
+          "window_samples": 418,
+          "fraction": 0.0215311004784689
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 592,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 491,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 493,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 488,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 486,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.209,
+        3.867,
+        0.134,
+        2.951
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x371",
+      "byte": 7,
+      "bit": 6,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": 120.722,
+          "samples": 3,
+          "window_samples": 23,
+          "fraction": 0.13043478260869565
+        },
+        {
+          "baseline": 0,
+          "first_rel": 177.521,
+          "samples": 3,
+          "window_samples": 21,
+          "fraction": 0.14285714285714285
+        },
+        {
+          "baseline": 0,
+          "first_rel": 248.319,
+          "samples": 4,
+          "window_samples": 24,
+          "fraction": 0.16666666666666666
+        },
+        {
+          "baseline": 0,
+          "first_rel": 333.717,
+          "samples": 4,
+          "window_samples": 24,
+          "fraction": 0.16666666666666666
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 33,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 24,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 26,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 24,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 22,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.565,
+        0.746,
+        0.837,
+        0.749
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x104",
+      "byte": 3,
+      "bit": 0,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 121.168,
+          "samples": 2,
+          "window_samples": 425,
+          "fraction": 0.004705882352941176
+        },
+        {
+          "baseline": 1,
+          "first_rel": 178.09,
+          "samples": 7,
+          "window_samples": 433,
+          "fraction": 0.016166281755196306
+        },
+        {
+          "baseline": 1,
+          "first_rel": 249.022,
+          "samples": 4,
+          "window_samples": 442,
+          "fraction": 0.00904977375565611
+        },
+        {
+          "baseline": 1,
+          "first_rel": 334.315,
+          "samples": 6,
+          "window_samples": 425,
+          "fraction": 0.01411764705882353
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 592,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 489,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 490,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.119,
+        0.177,
+        0.134,
+        0.151
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x104",
+      "byte": 3,
+      "bit": 1,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 121.168,
+          "samples": 2,
+          "window_samples": 425,
+          "fraction": 0.004705882352941176
+        },
+        {
+          "baseline": 1,
+          "first_rel": 178.09,
+          "samples": 7,
+          "window_samples": 433,
+          "fraction": 0.016166281755196306
+        },
+        {
+          "baseline": 1,
+          "first_rel": 249.022,
+          "samples": 4,
+          "window_samples": 442,
+          "fraction": 0.00904977375565611
+        },
+        {
+          "baseline": 1,
+          "first_rel": 334.315,
+          "samples": 6,
+          "window_samples": 425,
+          "fraction": 0.01411764705882353
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 592,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 489,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 490,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.119,
+        0.177,
+        0.134,
+        0.151
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x104",
+      "byte": 3,
+      "bit": 2,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": 121.168,
+          "samples": 2,
+          "window_samples": 425,
+          "fraction": 0.004705882352941176
+        },
+        {
+          "baseline": 0,
+          "first_rel": 178.09,
+          "samples": 7,
+          "window_samples": 433,
+          "fraction": 0.016166281755196306
+        },
+        {
+          "baseline": 0,
+          "first_rel": 249.022,
+          "samples": 4,
+          "window_samples": 442,
+          "fraction": 0.00904977375565611
+        },
+        {
+          "baseline": 0,
+          "first_rel": 334.315,
+          "samples": 6,
+          "window_samples": 425,
+          "fraction": 0.01411764705882353
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 592,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 489,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 490,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.119,
+        0.177,
+        0.134,
+        0.151
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x104",
+      "byte": 4,
+      "bit": 5,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 121.168,
+          "samples": 2,
+          "window_samples": 425,
+          "fraction": 0.004705882352941176
+        },
+        {
+          "baseline": 1,
+          "first_rel": 178.09,
+          "samples": 7,
+          "window_samples": 433,
+          "fraction": 0.016166281755196306
+        },
+        {
+          "baseline": 1,
+          "first_rel": 249.022,
+          "samples": 4,
+          "window_samples": 442,
+          "fraction": 0.00904977375565611
+        },
+        {
+          "baseline": 1,
+          "first_rel": 334.315,
+          "samples": 6,
+          "window_samples": 425,
+          "fraction": 0.01411764705882353
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 592,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 489,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 490,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.119,
+        0.177,
+        0.134,
+        0.151
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x104",
+      "byte": 4,
+      "bit": 6,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 121.168,
+          "samples": 2,
+          "window_samples": 425,
+          "fraction": 0.004705882352941176
+        },
+        {
+          "baseline": 1,
+          "first_rel": 178.09,
+          "samples": 7,
+          "window_samples": 433,
+          "fraction": 0.016166281755196306
+        },
+        {
+          "baseline": 1,
+          "first_rel": 249.022,
+          "samples": 4,
+          "window_samples": 442,
+          "fraction": 0.00904977375565611
+        },
+        {
+          "baseline": 1,
+          "first_rel": 334.315,
+          "samples": 6,
+          "window_samples": 425,
+          "fraction": 0.01411764705882353
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 592,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 489,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 490,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.119,
+        0.177,
+        0.134,
+        0.151
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x104",
+      "byte": 4,
+      "bit": 7,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 121.168,
+          "samples": 2,
+          "window_samples": 425,
+          "fraction": 0.004705882352941176
+        },
+        {
+          "baseline": 1,
+          "first_rel": 178.09,
+          "samples": 7,
+          "window_samples": 433,
+          "fraction": 0.016166281755196306
+        },
+        {
+          "baseline": 1,
+          "first_rel": 249.022,
+          "samples": 4,
+          "window_samples": 442,
+          "fraction": 0.00904977375565611
+        },
+        {
+          "baseline": 1,
+          "first_rel": 334.315,
+          "samples": 6,
+          "window_samples": 425,
+          "fraction": 0.01411764705882353
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 592,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 489,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 490,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.119,
+        0.177,
+        0.134,
+        0.151
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x104",
+      "byte": 3,
+      "bit": 0,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 121.168,
+          "samples": 2,
+          "window_samples": 416,
+          "fraction": 0.004807692307692308
+        },
+        {
+          "baseline": 1,
+          "first_rel": 178.09,
+          "samples": 6,
+          "window_samples": 418,
+          "fraction": 0.014354066985645933
+        },
+        {
+          "baseline": 1,
+          "first_rel": 249.022,
+          "samples": 4,
+          "window_samples": 435,
+          "fraction": 0.009195402298850575
+        },
+        {
+          "baseline": 1,
+          "first_rel": 334.315,
+          "samples": 6,
+          "window_samples": 418,
+          "fraction": 0.014354066985645933
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 592,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 491,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 493,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 488,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 486,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.119,
+        0.177,
+        0.134,
+        0.151
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x104",
+      "byte": 3,
+      "bit": 1,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 121.168,
+          "samples": 2,
+          "window_samples": 416,
+          "fraction": 0.004807692307692308
+        },
+        {
+          "baseline": 1,
+          "first_rel": 178.09,
+          "samples": 6,
+          "window_samples": 418,
+          "fraction": 0.014354066985645933
+        },
+        {
+          "baseline": 1,
+          "first_rel": 249.022,
+          "samples": 4,
+          "window_samples": 435,
+          "fraction": 0.009195402298850575
+        },
+        {
+          "baseline": 1,
+          "first_rel": 334.315,
+          "samples": 6,
+          "window_samples": 418,
+          "fraction": 0.014354066985645933
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 592,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 491,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 493,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 488,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 486,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.119,
+        0.177,
+        0.134,
+        0.151
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x104",
+      "byte": 3,
+      "bit": 2,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": 121.168,
+          "samples": 2,
+          "window_samples": 416,
+          "fraction": 0.004807692307692308
+        },
+        {
+          "baseline": 0,
+          "first_rel": 178.09,
+          "samples": 6,
+          "window_samples": 418,
+          "fraction": 0.014354066985645933
+        },
+        {
+          "baseline": 0,
+          "first_rel": 249.022,
+          "samples": 4,
+          "window_samples": 435,
+          "fraction": 0.009195402298850575
+        },
+        {
+          "baseline": 0,
+          "first_rel": 334.315,
+          "samples": 6,
+          "window_samples": 418,
+          "fraction": 0.014354066985645933
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 592,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 491,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 493,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 488,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 486,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.119,
+        0.177,
+        0.134,
+        0.151
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x104",
+      "byte": 4,
+      "bit": 5,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 121.168,
+          "samples": 2,
+          "window_samples": 416,
+          "fraction": 0.004807692307692308
+        },
+        {
+          "baseline": 1,
+          "first_rel": 178.09,
+          "samples": 6,
+          "window_samples": 418,
+          "fraction": 0.014354066985645933
+        },
+        {
+          "baseline": 1,
+          "first_rel": 249.022,
+          "samples": 4,
+          "window_samples": 435,
+          "fraction": 0.009195402298850575
+        },
+        {
+          "baseline": 1,
+          "first_rel": 334.315,
+          "samples": 6,
+          "window_samples": 418,
+          "fraction": 0.014354066985645933
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 592,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 491,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 493,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 488,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 486,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.119,
+        0.177,
+        0.134,
+        0.151
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x104",
+      "byte": 4,
+      "bit": 6,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 121.168,
+          "samples": 2,
+          "window_samples": 416,
+          "fraction": 0.004807692307692308
+        },
+        {
+          "baseline": 1,
+          "first_rel": 178.09,
+          "samples": 6,
+          "window_samples": 418,
+          "fraction": 0.014354066985645933
+        },
+        {
+          "baseline": 1,
+          "first_rel": 249.022,
+          "samples": 4,
+          "window_samples": 435,
+          "fraction": 0.009195402298850575
+        },
+        {
+          "baseline": 1,
+          "first_rel": 334.315,
+          "samples": 6,
+          "window_samples": 418,
+          "fraction": 0.014354066985645933
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 592,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 491,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 493,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 488,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 486,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.119,
+        0.177,
+        0.134,
+        0.151
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x104",
+      "byte": 4,
+      "bit": 7,
+      "low_hits": 4,
+      "high_hits": 0,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 121.168,
+          "samples": 2,
+          "window_samples": 416,
+          "fraction": 0.004807692307692308
+        },
+        {
+          "baseline": 1,
+          "first_rel": 178.09,
+          "samples": 6,
+          "window_samples": 418,
+          "fraction": 0.014354066985645933
+        },
+        {
+          "baseline": 1,
+          "first_rel": 249.022,
+          "samples": 4,
+          "window_samples": 435,
+          "fraction": 0.009195402298850575
+        },
+        {
+          "baseline": 1,
+          "first_rel": 334.315,
+          "samples": 6,
+          "window_samples": 418,
+          "fraction": 0.014354066985645933
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 592,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 491,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 493,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 488,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 486,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.119,
+        0.177,
+        0.134,
+        0.151
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x104",
+      "byte": 2,
+      "bit": 4,
+      "low_hits": 4,
+      "high_hits": 1,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": 119.138,
+          "samples": 139,
+          "window_samples": 425,
+          "fraction": 0.3270588235294118
+        },
+        {
+          "baseline": 0,
+          "first_rel": 174.31,
+          "samples": 307,
+          "window_samples": 433,
+          "fraction": 0.7090069284064665
+        },
+        {
+          "baseline": 0,
+          "first_rel": 245.222,
+          "samples": 130,
+          "window_samples": 442,
+          "fraction": 0.29411764705882354
+        },
+        {
+          "baseline": 0,
+          "first_rel": 330.545,
+          "samples": 319,
+          "window_samples": 425,
+          "fraction": 0.7505882352941177
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": 372.102,
+          "samples": 7,
+          "window_samples": 592,
+          "fraction": 0.011824324324324325
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 489,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 490,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        2.149,
+        3.957,
+        3.934,
+        3.921
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x104",
+      "byte": 2,
+      "bit": 4,
+      "low_hits": 4,
+      "high_hits": 1,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": 119.138,
+          "samples": 130,
+          "window_samples": 416,
+          "fraction": 0.3125
+        },
+        {
+          "baseline": 0,
+          "first_rel": 174.31,
+          "samples": 291,
+          "window_samples": 418,
+          "fraction": 0.6961722488038278
+        },
+        {
+          "baseline": 0,
+          "first_rel": 245.222,
+          "samples": 126,
+          "window_samples": 435,
+          "fraction": 0.2896551724137931
+        },
+        {
+          "baseline": 0,
+          "first_rel": 330.545,
+          "samples": 312,
+          "window_samples": 418,
+          "fraction": 0.7464114832535885
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": 372.102,
+          "samples": 7,
+          "window_samples": 592,
+          "fraction": 0.011824324324324325
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 491,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 493,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 488,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 486,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        2.149,
+        3.957,
+        3.934,
+        3.921
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x104",
+      "byte": 2,
+      "bit": 2,
+      "low_hits": 4,
+      "high_hits": 1,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": 119.138,
+          "samples": 139,
+          "window_samples": 425,
+          "fraction": 0.3270588235294118
+        },
+        {
+          "baseline": 0,
+          "first_rel": 174.31,
+          "samples": 305,
+          "window_samples": 433,
+          "fraction": 0.7043879907621247
+        },
+        {
+          "baseline": 0,
+          "first_rel": 245.212,
+          "samples": 131,
+          "window_samples": 442,
+          "fraction": 0.29638009049773756
+        },
+        {
+          "baseline": 0,
+          "first_rel": 330.585,
+          "samples": 311,
+          "window_samples": 425,
+          "fraction": 0.731764705882353
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": 372.002,
+          "samples": 15,
+          "window_samples": 592,
+          "fraction": 0.02533783783783784
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 489,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 490,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        2.149,
+        3.957,
+        3.944,
+        3.881
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x104",
+      "byte": 2,
+      "bit": 2,
+      "low_hits": 4,
+      "high_hits": 1,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": 119.138,
+          "samples": 130,
+          "window_samples": 416,
+          "fraction": 0.3125
+        },
+        {
+          "baseline": 0,
+          "first_rel": 174.31,
+          "samples": 288,
+          "window_samples": 418,
+          "fraction": 0.6889952153110048
+        },
+        {
+          "baseline": 0,
+          "first_rel": 245.212,
+          "samples": 127,
+          "window_samples": 435,
+          "fraction": 0.29195402298850576
+        },
+        {
+          "baseline": 0,
+          "first_rel": 330.585,
+          "samples": 305,
+          "window_samples": 418,
+          "fraction": 0.7296650717703349
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": 372.002,
+          "samples": 15,
+          "window_samples": 592,
+          "fraction": 0.02533783783783784
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 491,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 493,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 488,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 486,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        2.149,
+        3.957,
+        3.944,
+        3.881
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x104",
+      "byte": 4,
+      "bit": 2,
+      "low_hits": 4,
+      "high_hits": 1,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": 121.008,
+          "samples": 7,
+          "window_samples": 425,
+          "fraction": 0.01647058823529412
+        },
+        {
+          "baseline": 0,
+          "first_rel": 174.4,
+          "samples": 25,
+          "window_samples": 433,
+          "fraction": 0.057736720554272515
+        },
+        {
+          "baseline": 0,
+          "first_rel": 248.842,
+          "samples": 20,
+          "window_samples": 442,
+          "fraction": 0.04524886877828054
+        },
+        {
+          "baseline": 0,
+          "first_rel": 330.695,
+          "samples": 22,
+          "window_samples": 425,
+          "fraction": 0.05176470588235294
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": 372.152,
+          "samples": 9,
+          "window_samples": 592,
+          "fraction": 0.015202702702702704
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 489,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 490,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.279,
+        3.867,
+        0.314,
+        3.771
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x104",
+      "byte": 4,
+      "bit": 2,
+      "low_hits": 4,
+      "high_hits": 1,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": 121.018,
+          "samples": 6,
+          "window_samples": 416,
+          "fraction": 0.014423076923076924
+        },
+        {
+          "baseline": 0,
+          "first_rel": 174.4,
+          "samples": 21,
+          "window_samples": 418,
+          "fraction": 0.050239234449760764
+        },
+        {
+          "baseline": 0,
+          "first_rel": 248.842,
+          "samples": 18,
+          "window_samples": 435,
+          "fraction": 0.041379310344827586
+        },
+        {
+          "baseline": 0,
+          "first_rel": 330.695,
+          "samples": 22,
+          "window_samples": 418,
+          "fraction": 0.05263157894736842
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": 372.152,
+          "samples": 9,
+          "window_samples": 592,
+          "fraction": 0.015202702702702704
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 491,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 493,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 488,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 486,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.269,
+        3.867,
+        0.314,
+        3.771
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x104",
+      "byte": 2,
+      "bit": 0,
+      "low_hits": 4,
+      "high_hits": 1,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 121.128,
+          "samples": 3,
+          "window_samples": 425,
+          "fraction": 0.007058823529411765
+        },
+        {
+          "baseline": 1,
+          "first_rel": 174.31,
+          "samples": 21,
+          "window_samples": 433,
+          "fraction": 0.04849884526558892
+        },
+        {
+          "baseline": 1,
+          "first_rel": 248.992,
+          "samples": 6,
+          "window_samples": 442,
+          "fraction": 0.013574660633484163
+        },
+        {
+          "baseline": 1,
+          "first_rel": 330.545,
+          "samples": 23,
+          "window_samples": 425,
+          "fraction": 0.05411764705882353
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": 372.152,
+          "samples": 13,
+          "window_samples": 592,
+          "fraction": 0.02195945945945946
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 489,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 490,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.159,
+        3.957,
+        0.164,
+        3.921
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x104",
+      "byte": 2,
+      "bit": 0,
+      "low_hits": 4,
+      "high_hits": 1,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": 121.128,
+          "samples": 3,
+          "window_samples": 416,
+          "fraction": 0.007211538461538462
+        },
+        {
+          "baseline": 1,
+          "first_rel": 174.31,
+          "samples": 23,
+          "window_samples": 418,
+          "fraction": 0.05502392344497608
+        },
+        {
+          "baseline": 1,
+          "first_rel": 248.992,
+          "samples": 6,
+          "window_samples": 435,
+          "fraction": 0.013793103448275862
+        },
+        {
+          "baseline": 1,
+          "first_rel": 330.545,
+          "samples": 22,
+          "window_samples": 418,
+          "fraction": 0.05263157894736842
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": 372.152,
+          "samples": 12,
+          "window_samples": 592,
+          "fraction": 0.02027027027027027
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 491,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 493,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 488,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 486,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.159,
+        3.957,
+        0.164,
+        3.921
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x104",
+      "byte": 4,
+      "bit": 4,
+      "low_hits": 4,
+      "high_hits": 1,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": 121.078,
+          "samples": 9,
+          "window_samples": 425,
+          "fraction": 0.021176470588235293
+        },
+        {
+          "baseline": 0,
+          "first_rel": 174.4,
+          "samples": 19,
+          "window_samples": 433,
+          "fraction": 0.04387990762124711
+        },
+        {
+          "baseline": 0,
+          "first_rel": 248.992,
+          "samples": 6,
+          "window_samples": 442,
+          "fraction": 0.013574660633484163
+        },
+        {
+          "baseline": 0,
+          "first_rel": 330.655,
+          "samples": 12,
+          "window_samples": 425,
+          "fraction": 0.02823529411764706
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": 372.102,
+          "samples": 4,
+          "window_samples": 592,
+          "fraction": 0.006756756756756757
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 494,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 489,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 490,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.209,
+        3.867,
+        0.164,
+        3.811
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x104",
+      "byte": 4,
+      "bit": 4,
+      "low_hits": 4,
+      "high_hits": 1,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": 121.078,
+          "samples": 9,
+          "window_samples": 416,
+          "fraction": 0.021634615384615384
+        },
+        {
+          "baseline": 0,
+          "first_rel": 174.4,
+          "samples": 18,
+          "window_samples": 418,
+          "fraction": 0.0430622009569378
+        },
+        {
+          "baseline": 0,
+          "first_rel": 248.992,
+          "samples": 6,
+          "window_samples": 435,
+          "fraction": 0.013793103448275862
+        },
+        {
+          "baseline": 0,
+          "first_rel": 330.655,
+          "samples": 12,
+          "window_samples": 418,
+          "fraction": 0.028708133971291867
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": 372.102,
+          "samples": 4,
+          "window_samples": 592,
+          "fraction": 0.006756756756756757
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 491,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 493,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 488,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 486,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        0.209,
+        3.867,
+        0.164,
+        3.811
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x36B",
+      "byte": 6,
+      "bit": 4,
+      "low_hits": 3,
+      "high_hits": 1,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 1,
+          "window_samples": 46,
+          "fraction": 0.021739130434782608
+        },
+        {
+          "baseline": 0,
+          "first_rel": 174.082,
+          "samples": 14,
+          "window_samples": 43,
+          "fraction": 0.32558139534883723
+        },
+        {
+          "baseline": 0,
+          "first_rel": 244.979,
+          "samples": 2,
+          "window_samples": 42,
+          "fraction": 0.047619047619047616
+        },
+        {
+          "baseline": 0,
+          "first_rel": 330.177,
+          "samples": 16,
+          "window_samples": 40,
+          "fraction": 0.4
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": 371.581,
+          "samples": 20,
+          "window_samples": 67,
+          "fraction": 0.29850746268656714
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 47,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 51,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 45,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 1,
+          "window_samples": 48,
+          "fraction": 0.020833333333333332
+        }
+      ],
+      "leads_to_rpm": [
+        null,
+        4.185,
+        4.177,
+        4.289
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x107",
+      "byte": 0,
+      "bit": 7,
+      "low_hits": 3,
+      "high_hits": 1,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 207,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": 174.075,
+          "samples": 20,
+          "window_samples": 192,
+          "fraction": 0.10416666666666667
+        },
+        {
+          "baseline": 0,
+          "first_rel": 244.973,
+          "samples": 14,
+          "window_samples": 233,
+          "fraction": 0.060085836909871244
+        },
+        {
+          "baseline": 0,
+          "first_rel": 330.292,
+          "samples": 27,
+          "window_samples": 197,
+          "fraction": 0.13705583756345177
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": 371.735,
+          "samples": 29,
+          "window_samples": 297,
+          "fraction": 0.09764309764309764
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 248,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 232,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 231,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 244,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        null,
+        4.192,
+        4.183,
+        4.174
+      ]
+    },
+    {
+      "bus": 1,
+      "can_id": "0x107",
+      "byte": 0,
+      "bit": 7,
+      "low_hits": 3,
+      "high_hits": 1,
+      "low": [
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 208,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": 174.075,
+          "samples": 19,
+          "window_samples": 190,
+          "fraction": 0.1
+        },
+        {
+          "baseline": 0,
+          "first_rel": 244.973,
+          "samples": 14,
+          "window_samples": 233,
+          "fraction": 0.060085836909871244
+        },
+        {
+          "baseline": 0,
+          "first_rel": 330.292,
+          "samples": 25,
+          "window_samples": 191,
+          "fraction": 0.13089005235602094
+        }
+      ],
+      "high": [
+        {
+          "baseline": 0,
+          "first_rel": 371.735,
+          "samples": 28,
+          "window_samples": 293,
+          "fraction": 0.09556313993174062
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 247,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 230,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 232,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 0,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 245,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        null,
+        4.192,
+        4.183,
+        4.174
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x109",
+      "byte": 0,
+      "bit": 3,
+      "low_hits": 3,
+      "high_hits": 1,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 42,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": 174.252,
+          "samples": 4,
+          "window_samples": 29,
+          "fraction": 0.13793103448275862
+        },
+        {
+          "baseline": 1,
+          "first_rel": 245.151,
+          "samples": 2,
+          "window_samples": 41,
+          "fraction": 0.04878048780487805
+        },
+        {
+          "baseline": 1,
+          "first_rel": 330.448,
+          "samples": 2,
+          "window_samples": 18,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": 371.956,
+          "samples": 4,
+          "window_samples": 61,
+          "fraction": 0.06557377049180328
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 51,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 47,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 47,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 52,
+          "fraction": 0.0
+        }
+      ],
+      "leads_to_rpm": [
+        null,
+        4.015,
+        4.005,
+        4.018
+      ]
+    },
+    {
+      "bus": 0,
+      "can_id": "0x36B",
+      "byte": 6,
+      "bit": 3,
+      "low_hits": 3,
+      "high_hits": 1,
+      "low": [
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 1,
+          "window_samples": 46,
+          "fraction": 0.021739130434782608
+        },
+        {
+          "baseline": 1,
+          "first_rel": 175.381,
+          "samples": 6,
+          "window_samples": 43,
+          "fraction": 0.13953488372093023
+        },
+        {
+          "baseline": 1,
+          "first_rel": 244.979,
+          "samples": 2,
+          "window_samples": 42,
+          "fraction": 0.047619047619047616
+        },
+        {
+          "baseline": 1,
+          "first_rel": 330.177,
+          "samples": 9,
+          "window_samples": 40,
+          "fraction": 0.225
+        }
+      ],
+      "high": [
+        {
+          "baseline": 1,
+          "first_rel": 371.581,
+          "samples": 11,
+          "window_samples": 67,
+          "fraction": 0.16417910447761194
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 47,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 51,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 0,
+          "window_samples": 45,
+          "fraction": 0.0
+        },
+        {
+          "baseline": 1,
+          "first_rel": null,
+          "samples": 1,
+          "window_samples": 48,
+          "fraction": 0.020833333333333332
+        }
+      ],
+      "leads_to_rpm": [
+        null,
+        2.886,
+        4.177,
+        4.289
+      ]
+    }
+  ],
+  "note": "Stable baseline across all events; >=2 consecutive differing frames before observed RPM>100 in low-SOC events; high-SOC control window 7.5s. Exploratory candidate selection, no causality proved."
+}

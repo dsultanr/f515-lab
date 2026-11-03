@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "fresh_parse_results_match": [
+    "findings.json",
+    "cycles.csv"
+  ],
+  "scripts_source": "ispace-research/spec/artifacts/vega-remote-engine-comparison",
+  "original_captures_modified": false
+}
