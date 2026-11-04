@@ -1,0 +1,17 @@
+F515 radio observation, 2026-11-04. Timestamps: device Unix epoch milliseconds.
+
+1793791819733 start duration_seconds=3 af=true traffic_announcement=false
+1793791822775 unregistered
+1793791822775 stop dropped=0
+1793791909477 radio_info index=0 radioType=0 pty=0 frequencyId=9600
+1793792108534 AF_CHANGE pastFreq=9600 newFreq=9870
+1793792108534 radio_info index=0 radioType=0 pty=0 frequencyId=9870
+1793792253693 radio_info index=0 radioType=0 pty=0 frequencyId=9600
+
+AF disable, device 14:37:02 MSK:
+Wed Nov  4 14:37:02 MSK 2026
+Result: Parcel(00000000    '....')
+Result: Parcel(00000000 00000000   '........')
+
+Persisted Bundle change (other values unchanged):
+setting_af_link: true -> false
