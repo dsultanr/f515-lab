@@ -49,6 +49,13 @@ ax.plot(at('2026-11-12T02:11:20'), 8.58, 'o', color='#c33737', ms=6)
 ax.annotate('02:11 · минимум 8,58 В', xy=(at('2026-11-12T02:11:20'), 8.58),
             xytext=(at('2026-11-12T02:45:00'), 8.65), color='#aa2727', fontsize=11,
             arrowprops={'arrowstyle': '-', 'color': '#aa2727'})
+ax.axhline(9, color='#c33737', alpha=.3, ls=':', linewidth=1)
+ax.text(at('2026-11-12T11:45:00'), 9.1, 'Порог защиты 9 В — по данным владельца',
+        color='#995050', fontsize=9, ha='right')
+ax.annotate('Защита отключила потребителей\nВосстановление до 10,2–10,3 В',
+            xy=(at('2026-11-12T02:38:35'), 10.28),
+            xytext=(at('2026-11-12T03:10:00'), 10.85), fontsize=10,
+            arrowprops={'arrowstyle': '-', 'color': '#555'})
 ax.annotate('08:12–08:14 · 12,76 → 13,5 В\nПризнаки включения DC-DC',
             xy=(at('2026-11-12T08:13:53'), 13.5),
             xytext=(at('2026-11-12T07:10:00'), 14.55), fontsize=10,
